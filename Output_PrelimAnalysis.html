@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Dissertation Prelim Analysis for MCLS 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Output_PrelimAnalysis_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/quarto.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/popper.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Output_PrelimAnalysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Output_PrelimAnalysis_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#about-the-participants" id="toc-about-the-participants" class="nav-link active" data-scroll-target="#about-the-participants">About the Participants</a>
+  <ul class="collapse">
+  <li><a href="#demographic-characteristics" id="toc-demographic-characteristics" class="nav-link" data-scroll-target="#demographic-characteristics">Demographic Characteristics</a></li>
+  <li><a href="#math-anxiety" id="toc-math-anxiety" class="nav-link" data-scroll-target="#math-anxiety">Math Anxiety</a></li>
+  </ul></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data Analysis</a>
+  <ul class="collapse">
+  <li><a href="#analytic-plan" id="toc-analytic-plan" class="nav-link" data-scroll-target="#analytic-plan">Analytic Plan</a></li>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link" data-scroll-target="#descriptive-statistics">Descriptive Statistics</a></li>
+  <li><a href="#inferential-statistics" id="toc-inferential-statistics" class="nav-link" data-scroll-target="#inferential-statistics">Inferential Statistics</a>
+  <ul class="collapse">
+  <li><a href="#rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" id="toc-rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" class="nav-link" data-scroll-target="#rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory">RQ 1. To what extent does multi-operand arithmetic involve working memory?</a></li>
+  <li><a href="#rq-2.-is-working-memory-affected-by-changes-in-spacing" id="toc-rq-2.-is-working-memory-affected-by-changes-in-spacing" class="nav-link" data-scroll-target="#rq-2.-is-working-memory-affected-by-changes-in-spacing">RQ 2. Is working memory affected by changes in spacing?</a></li>
+  <li><a href="#rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" id="toc-rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" class="nav-link" data-scroll-target="#rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory">RQ 3. Do perceptual cues such as parenthesis influence the interaction between spacing and working memory?</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dissertation Prelim Analysis for MCLS 2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+
+</div>
+<section id="about-the-participants" class="level1">
+<h1>About the Participants</h1>
+<section id="demographic-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="demographic-characteristics">Demographic Characteristics</h2>
+<p>XX signed the consent form but 33 so far has completed the study. The average age of the sample is .</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="lotgjnpcdi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#lotgjnpcdi table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#lotgjnpcdi thead, #lotgjnpcdi tbody, #lotgjnpcdi tfoot, #lotgjnpcdi tr, #lotgjnpcdi td, #lotgjnpcdi th {
+  border-style: none;
+}
+
+#lotgjnpcdi p {
+  margin: 0;
+  padding: 0;
+}
+
+#lotgjnpcdi .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#lotgjnpcdi .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#lotgjnpcdi .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#lotgjnpcdi .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#lotgjnpcdi .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#lotgjnpcdi .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#lotgjnpcdi .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#lotgjnpcdi .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#lotgjnpcdi .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#lotgjnpcdi .gt_group_heading {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#lotgjnpcdi .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#lotgjnpcdi .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#lotgjnpcdi .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#lotgjnpcdi .gt_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#lotgjnpcdi .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#lotgjnpcdi .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#lotgjnpcdi .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#lotgjnpcdi .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#lotgjnpcdi .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#lotgjnpcdi .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#lotgjnpcdi .gt_last_summary_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#lotgjnpcdi .gt_first_grand_summary_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_last_grand_summary_row_top {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#lotgjnpcdi .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#lotgjnpcdi .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#lotgjnpcdi .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#lotgjnpcdi .gt_left {
+  text-align: left;
+}
+
+#lotgjnpcdi .gt_center {
+  text-align: center;
+}
+
+#lotgjnpcdi .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#lotgjnpcdi .gt_font_normal {
+  font-weight: normal;
+}
+
+#lotgjnpcdi .gt_font_bold {
+  font-weight: bold;
+}
+
+#lotgjnpcdi .gt_font_italic {
+  font-style: italic;
+}
+
+#lotgjnpcdi .gt_super {
+  font-size: 65%;
+}
+
+#lotgjnpcdi .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#lotgjnpcdi .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#lotgjnpcdi .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#lotgjnpcdi .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#lotgjnpcdi .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#lotgjnpcdi .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#lotgjnpcdi .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="<strong>Characteristic</strong>"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>N = 33</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>"><strong>N = 33</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which gender do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Female</td>
+<td headers="stat_0" class="gt_row gt_center">18 (55%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Gender variant or non-conforming</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Male</td>
+<td headers="stat_0" class="gt_row gt_center">14 (42%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which ethnicity do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not Hispanic or Latino or Spanish Origin</td>
+<td headers="stat_0" class="gt_row gt_center">31 (94%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Prefer not to answer</td>
+<td headers="stat_0" class="gt_row gt_center">2 (6.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which race do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Asian</td>
+<td headers="stat_0" class="gt_row gt_center">4 (12%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Black or African American</td>
+<td headers="stat_0" class="gt_row gt_center">6 (18%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Native Hawaiian or Other Pacific Islander</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Prefer not to answer</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Two or more races</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;White</td>
+<td headers="stat_0" class="gt_row gt_center">20 (61%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">In which country did you receive most of your education?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Outside the United States</td>
+<td headers="stat_0" class="gt_row gt_center">2 (6.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;United States</td>
+<td headers="stat_0" class="gt_row gt_center">31 (94%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">What is the highest level of education you have achieved?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;__other</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;College</td>
+<td headers="stat_0" class="gt_row gt_center">13 (39%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Graduate school</td>
+<td headers="stat_0" class="gt_row gt_center">16 (48%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Middle/High school</td>
+<td headers="stat_0" class="gt_row gt_center">3 (9.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">How many math classes have you taken after high school?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+<td headers="stat_0" class="gt_row gt_center">4 (12%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;2</td>
+<td headers="stat_0" class="gt_row gt_center">11 (33%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;3</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;3 or more</td>
+<td headers="stat_0" class="gt_row gt_center">16 (48%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">If you are in a college, university or any postsecondary institution, what is your major or your field of study?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Non-STEM</td>
+<td headers="stat_0" class="gt_row gt_center">12 (36%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not applicable</td>
+<td headers="stat_0" class="gt_row gt_center">8 (24%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;STEM (science, technology, engineering, and mathematics) and social sciences</td>
+<td headers="stat_0" class="gt_row gt_center">13 (39%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">if you have a minor, what is your minor in?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Non-STEM</td>
+<td headers="stat_0" class="gt_row gt_center">10 (30%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not applicable</td>
+<td headers="stat_0" class="gt_row gt_center">14 (42%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;STEM</td>
+<td headers="stat_0" class="gt_row gt_center">9 (27%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Are you a working professional (not attending college or any postsecondary school)?</td>
+<td headers="stat_0" class="gt_row gt_center">19 (58%)</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> n (%)</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="math-anxiety" class="level2">
+<h2 class="anchored" data-anchor-id="math-anxiety">Math Anxiety</h2>
+<p>Participants completed the nine-question Abbreviated Math Anxiety Scale, along a Likert scale from 1 (<em>low anxiety</em>) to 5 (<em>high anxiety</em>). On average, the participants had low math anxiety (<em>Mean</em>=2.48).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="data-analysis" class="level1">
+<h1>Data Analysis</h1>
+<section id="analytic-plan" class="level2">
+<h2 class="anchored" data-anchor-id="analytic-plan">Analytic Plan</h2>
+<p>After participants complete the demographic questionnaires, participants take both phonological and visual span tasks, from which load information is taken (80% for high difficulty and 99% for low difficulty for each type). Participants then complete the dual span tasks, with three blocks/task conditions: only neutral, all-spacing conditions, and all-spacing conditions with parentheses.</p>
+<p>The final dataset consisted of participants’ background characteristics, as well as accuracy and response times for arithmetic problems under working memory load (type and difficulty) and spacing conditions. Outliers are defined as more than three standard deviations above or below the mean; however, they will not be removed.</p>
+</section>
+<section id="descriptive-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="descriptive-statistics">Descriptive Statistics</h2>
+<p>From each of the 33 participants, RTs and accuracy for 180 trials (60 arithmetic problems, 3 task conditions) were gathered. In a longform dataset, there were 5940 rows. Data cleaning was then conducted:</p>
+<ul>
+<li>45 trials (.8% of all trials) were removed due to no expressions being displayed during one block (all for one participant)</li>
+<li>For those with incorrect answers, 646 RTs (10.8%) were removed (inserted NA).</li>
+</ul>
+<p>RTs were converted to seconds (ms/1000) for the following analysis. Seven RTs were found to be outliers but were not removed; RTs were also logarithmically-transformed.</p>
+<p>The mean for the RT variable (<em>n</em> = 5249 trials) is 2 seconds (median = 1.3s, standard deviation = 9.2s). The mean for the acc variable (<em>n</em> = 5895 trials) is 0.89 (med = 1.0, sd = 0.3s).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>    vars    n mean   sd median trimmed  mad  min    max  range  skew kurtosis
+rt     1 5249 2.00 9.17    1.3    1.43 0.72 0.31 486.43 486.12 45.91  2268.19
+acc    2 5895 0.89 0.31    1.0    0.99 0.00 0.00   1.00   1.00 -2.50     4.25
+      se
+rt  0.13
+acc 0.00</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       vars    n mean   sd median trimmed  mad   min  max range  skew kurtosis
+log_rt    1 5249 0.33 0.67   0.26    0.28 0.55 -1.17 6.19  7.36  1.07     3.59
+acc       2 5895 0.89 0.31   1.00    0.99 0.00  0.00 1.00  1.00 -2.50     4.25
+         se
+log_rt 0.01
+acc    0.00</code></pre>
+</div>
+</div>
+</section>
+<section id="inferential-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="inferential-statistics">Inferential Statistics</h2>
+<p>To answer my research questions, I conducted analyses of variance (ANOVAs). My dependent measures were accuracy and response times for arithmetic problems with working memory load difficulty and type and spacing as factors. Post-hoc comparisons were conducted for significant interactions.</p>
+<section id="rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" class="level3">
+<h3 class="anchored" data-anchor-id="rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory">RQ 1. To what extent does multi-operand arithmetic involve working memory?</h3>
+<p>To answer this question, I will conduct an ANOVA with 2 working memory load difficulties (high and low) x 2 types (phonological and visuospatial) as factors in the first dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences in accuracy and response times between types and with lower accuracy and slower response times in high vs.&nbsp;low load.</p>
+<section id="main-effects-of-wm-load-difficulty" class="level4">
+<h4 class="anchored" data-anchor-id="main-effects-of-wm-load-difficulty">Main Effects of WM Load Difficulty</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+      vars  n       mean        sd     median    trimmed      mad        min
+id1      1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*    2 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt       3 66       2.03      2.42       1.61       1.73     0.78       0.66
+acc      4 66       0.90      0.11       0.93       0.91     0.10       0.56
+             max     range  skew kurtosis       se
+id1   8738211.00 436028.00 -1.06     0.03 14524.45
+load*       1.00      0.00   NaN      NaN     0.00
+rt         20.65     19.99  6.87    49.93     0.30
+acc         1.00      0.44 -1.11     0.33     0.01
+------------------------------------------------------------ 
+load: low
+      vars  n       mean        sd     median    trimmed      mad        min
+id1      1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*    2 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt       3 66       2.12      1.69       1.78       1.88     0.73       0.73
+acc      4 66       0.89      0.10       0.91       0.90     0.10       0.53
+             max     range  skew kurtosis       se
+id1   8738211.00 436028.00 -1.06     0.03 14524.45
+load*       1.00      0.00   NaN      NaN     0.00
+rt         13.76     13.03  5.03    31.60     0.21
+acc         1.00      0.47 -1.07     0.79     0.01</code></pre>
+</div>
+</div>
+</section>
+<section id="main-effects-of-wm-load-type" class="level4">
+<h4 class="anchored" data-anchor-id="main-effects-of-wm-load-type">Main Effects of WM Load Type</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+wmLoad: p
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*      2 66       1.50      0.50       1.50       1.50     0.74       1.00
+wmLoad*    3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       1.99      1.67       1.62       1.75     0.65       0.66
+acc        5 66       0.89      0.11       0.92       0.90     0.08       0.56
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+load*         2.00      1.00  0.00    -2.03     0.06
+wmLoad*       1.00      0.00   NaN      NaN     0.00
+rt           13.76     13.10  5.37    34.65     0.21
+acc           1.00      0.44 -1.01     0.34     0.01
+------------------------------------------------------------ 
+wmLoad: v
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*      2 66       1.50      0.50       1.50       1.50     0.74       1.00
+wmLoad*    3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       2.16      2.43       1.70       1.84     0.74       0.73
+acc        5 66       0.89      0.11       0.93       0.91     0.10       0.53
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+load*         2.00      1.00  0.00    -2.03     0.06
+wmLoad*       1.00      0.00   NaN      NaN     0.00
+rt           20.65     19.92  6.64    47.66     0.30
+acc           1.00      0.47 -1.14     0.69     0.01</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>load <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>load)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>wmLoad <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>wmLoad)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>id1 <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>id1)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32    170   5.312               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1   0.27   0.266   0.067  0.798
+Residuals 32 127.56   3.986               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66  268.6    4.07               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  21.36  0.6676               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1  0.246  0.2459   2.335  0.136
+Residuals 32  3.369  0.1053               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66  8.256  0.1251               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  1.248   0.039               
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+load       1 0.00304 0.003039   1.025  0.319
+Residuals 32 0.09489 0.002965               
+
+Error: Within
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 66 0.1623 0.002459               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32    170   5.312               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1   0.91   0.910   0.223   0.64
+Residuals 32 130.36   4.074               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66  265.2   4.018               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  21.36  0.6676               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1  0.064 0.06352   0.542  0.467
+Residuals 32  3.747 0.11709               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66   8.06  0.1221               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  1.248   0.039               
+
+Error: id1:wmLoad
+          Df  Sum Sq   Mean Sq F value Pr(&gt;F)
+wmLoad     1 0.00027 0.0002703   0.139  0.712
+Residuals 32 0.06235 0.0019485               
+
+Error: Within
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 66 0.1976 0.002994               </code></pre>
+</div>
+</div>
+</section>
+<section id="interaction-effects" class="level4">
+<h4 class="anchored" data-anchor-id="interaction-effects">Interaction Effects</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32    170   5.312               
+
+Error: wmLoad
+       Df Sum Sq Mean Sq
+wmLoad  1 0.9098  0.9098
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1   0.27   0.266   0.067  0.798
+Residuals 32 127.56   3.986               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  130.4   4.074               
+
+Error: id1:load:wmLoad
+            Df Sum Sq Mean Sq F value Pr(&gt;F)
+load:wmLoad  1   5.79   5.791   1.409  0.244
+Residuals   32 131.56   4.111               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  21.36  0.6676               
+
+Error: wmLoad
+       Df  Sum Sq Mean Sq
+wmLoad  1 0.06352 0.06352
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1  0.246  0.2459   2.335  0.136
+Residuals 32  3.369  0.1053               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  3.747  0.1171               
+
+Error: id1:load:wmLoad
+            Df Sum Sq Mean Sq F value Pr(&gt;F)
+load:wmLoad  1  0.022 0.02184   0.158  0.694
+Residuals   32  4.423 0.13823               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  1.248   0.039               
+
+Error: wmLoad
+       Df    Sum Sq   Mean Sq
+wmLoad  1 0.0002703 0.0002703
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+load       1 0.00304 0.003039   1.025  0.319
+Residuals 32 0.09489 0.002965               
+
+Error: id1:wmLoad
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 32 0.06235 0.001948               
+
+Error: id1:load:wmLoad
+            Df  Sum Sq  Mean Sq F value  Pr(&gt;F)   
+load:wmLoad  1 0.02424 0.024243   10.29 0.00304 **
+Residuals   32 0.07542 0.002357                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<p>It looks like there is an interaction effect of <code>load*wmLoad</code> on <code>acc</code>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-10-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  1.74 0.64   1.59    1.71  0.50 0.66  3.12  2.46  0.42    -0.62
+acc        5 33  0.88 0.12   0.93    0.90  0.10 0.56  1.00  0.44 -0.87    -0.18
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.11
+acc     0.02
+------------------------------------------------------------ 
+load: low
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  2.25 2.26   1.64    1.83  0.69 0.73 13.76 13.02  4.01    17.46
+acc        5 33  0.90 0.09   0.91    0.91  0.10 0.67  1.00  0.33 -0.99     0.18
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.39
+acc     0.02
+------------------------------------------------------------ 
+load: high
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00  32.0  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00   0.0   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00   0.0   NaN      NaN
+rt         4 33  2.32 3.37   1.63    1.75  0.85 0.75 20.65  19.9  4.87    23.65
+acc        5 33  0.91 0.10   0.96    0.93  0.07 0.60  1.00   0.4 -1.31     0.79
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.59
+acc     0.02
+------------------------------------------------------------ 
+load: low
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+rt         4 33  1.99 0.79   1.81    1.93  0.62 0.73  3.77  3.04  0.67    -0.29
+acc        5 33  0.87 0.11   0.91    0.89  0.10 0.53  1.00  0.47 -0.99     0.53
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.14
+acc     0.02</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  1.74 0.64   1.59    1.71  0.50 0.66  3.12  2.46  0.42    -0.62
+acc        5 33  0.88 0.12   0.93    0.90  0.10 0.56  1.00  0.44 -0.87    -0.18
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.11
+acc     0.02
+------------------------------------------------------------ 
+load: low
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  2.25 2.26   1.64    1.83  0.69 0.73 13.76 13.02  4.01    17.46
+acc        5 33  0.90 0.09   0.91    0.91  0.10 0.67  1.00  0.33 -0.99     0.18
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.39
+acc     0.02
+------------------------------------------------------------ 
+load: high
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00  32.0  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00   0.0   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00   0.0   NaN      NaN
+rt         4 33  2.32 3.37   1.63    1.75  0.85 0.75 20.65  19.9  4.87    23.65
+acc        5 33  0.91 0.10   0.96    0.93  0.07 0.60  1.00   0.4 -1.31     0.79
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.59
+acc     0.02
+------------------------------------------------------------ 
+load: low
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+rt         4 33  1.99 0.79   1.81    1.93  0.62 0.73  3.77  3.04  0.67    -0.29
+acc        5 33  0.87 0.11   0.91    0.89  0.10 0.53  1.00  0.47 -0.99     0.53
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.14
+acc     0.02</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.2125699</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.7505783</code></pre>
+</div>
+</div>
+</section>
+<section id="effect-sizes" class="level4">
+<h4 class="anchored" data-anchor-id="effect-sizes">Effect Sizes</h4>
+<p>Effect sizes were computed to examine whether there is a meaningful difference in arithmetic performance when under low vs.&nbsp;high working memory demand (or whether working memory manipulation affected arithmetic expressions).</p>
+<p>The RTs of the low and high loads has a correlation of 0.21 with an effect size of Cohen’s <em>d<sub>rm,pooled</sub></em> = 0.027 (Lakens, 2013, formula 8, also in this <a href="https://www.psychometrica.de/effect_size.html">link</a>).</p>
+<p>The ACCs of the low and high loads has a correlation of 0.75 with an effect size of Cohen’s <em>d<sub>rm,pooled</sub></em> = -0.189 (Lakens, 2013, formula 8, also in this <a href="https://www.psychometrica.de/effect_size.html">link</a>).</p>
+</section>
+<section id="some-interpretations" class="level4">
+<h4 class="anchored" data-anchor-id="some-interpretations">Some interpretations</h4>
+<p>Some reversed results are observed. It might be practice effects, where participants did more poorly on first trials than on second trials.</p>
+</section>
+</section>
+<section id="rq-2.-is-working-memory-affected-by-changes-in-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="rq-2.-is-working-memory-affected-by-changes-in-spacing">RQ 2. Is working memory affected by changes in spacing?</h3>
+<p>To answer this question, I will conduct an ANOVA with 2 working memory load difficulty x 2 types x 3 spacing conditions as factors in the second dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences in accuracy and response times between types and with lower accuracy and slower response times in high vs.&nbsp;low load. There should be a lower accuracy and slower response times for incongruent than congruent trials.</p>
+</section>
+<section id="rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" class="level3">
+<h3 class="anchored" data-anchor-id="rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory">RQ 3. Do perceptual cues such as parenthesis influence the interaction between spacing and working memory?</h3>
+<p>To answer this question, I will also conduct an ANOVA with 2 working memory load difficulties x 2 type x 3 spacing conditions as factors on the third dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences between types and with more significant interference in high vs.&nbsp;low load. Because we expect parentheses to overcome the effect of incongruent spacing, there should be no difference between spacing conditions within each load and type (i.e., the spacing effect is weaker).</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
