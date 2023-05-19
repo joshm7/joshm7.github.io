@@ -1,3 +1,3 @@
 # joshm7.github.io
 
-Hello and Welcome. This is the start of a beautiful new website.
+Future web space. Check my current website [here](https://sites.google.com/umd.edu/joshmedrano/home).
