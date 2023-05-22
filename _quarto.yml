@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+  website:
+    navbar:
+      background: primary
+      search: false
+      left:
+        - text: "Home"
+          file: index.html
