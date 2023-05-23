@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Dissertation Prelim Analysis for MCLS 2023</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="Output_PrelimAnalysis_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/quarto.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/popper.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Output_PrelimAnalysis_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Output_PrelimAnalysis_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Output_PrelimAnalysis_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Output_PrelimAnalysis_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#about-the-participants" id="toc-about-the-participants" class="nav-link active" data-scroll-target="#about-the-participants">About the Participants</a>
+  <ul class="collapse">
+  <li><a href="#demographic-characteristics" id="toc-demographic-characteristics" class="nav-link" data-scroll-target="#demographic-characteristics">Demographic Characteristics</a></li>
+  <li><a href="#math-anxiety" id="toc-math-anxiety" class="nav-link" data-scroll-target="#math-anxiety">Math Anxiety</a></li>
+  </ul></li>
+  <li><a href="#analytic-plan" id="toc-analytic-plan" class="nav-link" data-scroll-target="#analytic-plan">Analytic Plan</a></li>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link" data-scroll-target="#descriptive-statistics">Descriptive Statistics</a></li>
+  <li><a href="#inferential-statistics" id="toc-inferential-statistics" class="nav-link" data-scroll-target="#inferential-statistics">Inferential Statistics</a>
+  <ul class="collapse">
+  <li><a href="#rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" id="toc-rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" class="nav-link" data-scroll-target="#rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory">RQ 1. To what extent does multi-operand arithmetic involve working memory?</a>
+  <ul class="collapse">
+  <li><a href="#main-effect-of-load" id="toc-main-effect-of-load" class="nav-link" data-scroll-target="#main-effect-of-load">Main Effect of Load</a></li>
+  <li><a href="#main-effect-of-wm-type" id="toc-main-effect-of-wm-type" class="nav-link" data-scroll-target="#main-effect-of-wm-type">Main Effect of WM Type</a></li>
+  <li><a href="#interaction-effects" id="toc-interaction-effects" class="nav-link" data-scroll-target="#interaction-effects">Interaction Effects</a></li>
+  <li><a href="#effect-sizes" id="toc-effect-sizes" class="nav-link" data-scroll-target="#effect-sizes">Effect Sizes</a></li>
+  <li><a href="#some-interpretations" id="toc-some-interpretations" class="nav-link" data-scroll-target="#some-interpretations">Some interpretations</a></li>
+  </ul></li>
+  <li><a href="#rq-2.-is-working-memory-affected-by-changes-in-spacing" id="toc-rq-2.-is-working-memory-affected-by-changes-in-spacing" class="nav-link" data-scroll-target="#rq-2.-is-working-memory-affected-by-changes-in-spacing">RQ 2. Is working memory affected by changes in spacing?</a>
+  <ul class="collapse">
+  <li><a href="#main-effect-of-load-1" id="toc-main-effect-of-load-1" class="nav-link" data-scroll-target="#main-effect-of-load-1">Main Effect of Load</a></li>
+  <li><a href="#main-effect-of-wm-type-1" id="toc-main-effect-of-wm-type-1" class="nav-link" data-scroll-target="#main-effect-of-wm-type-1">Main Effect of WM Type</a></li>
+  <li><a href="#main-effect-of-spacing" id="toc-main-effect-of-spacing" class="nav-link" data-scroll-target="#main-effect-of-spacing">Main Effect of Spacing</a></li>
+  <li><a href="#interaction-effects-1" id="toc-interaction-effects-1" class="nav-link" data-scroll-target="#interaction-effects-1">Interaction Effects</a></li>
+  </ul></li>
+  <li><a href="#rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" id="toc-rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" class="nav-link" data-scroll-target="#rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory">RQ 3. Do perceptual cues such as parenthesis influence the interaction between spacing and working memory?</a>
+  <ul class="collapse">
+  <li><a href="#main-effect-of-load-2" id="toc-main-effect-of-load-2" class="nav-link" data-scroll-target="#main-effect-of-load-2">Main Effect of Load</a></li>
+  <li><a href="#main-effect-of-wm-type-2" id="toc-main-effect-of-wm-type-2" class="nav-link" data-scroll-target="#main-effect-of-wm-type-2">Main Effect of WM Type</a></li>
+  <li><a href="#main-effect-of-spacing-1" id="toc-main-effect-of-spacing-1" class="nav-link" data-scroll-target="#main-effect-of-spacing-1">Main Effect of Spacing</a></li>
+  <li><a href="#interaction-effects-2" id="toc-interaction-effects-2" class="nav-link" data-scroll-target="#interaction-effects-2">Interaction Effects</a></li>
+  </ul></li>
+  <li><a href="#parenthesis-vs.-no-parenthesis-visuals" id="toc-parenthesis-vs.-no-parenthesis-visuals" class="nav-link" data-scroll-target="#parenthesis-vs.-no-parenthesis-visuals">Parenthesis vs.&nbsp;no parenthesis visuals</a>
+  <ul class="collapse">
+  <li><a href="#spacing-effect-and-load-by-task" id="toc-spacing-effect-and-load-by-task" class="nav-link" data-scroll-target="#spacing-effect-and-load-by-task">Spacing effect and load by task</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Dissertation Prelim Analysis for MCLS 2023</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="cell">
+
+</div>
+<p>https://joshm7.github.io/Output_PrelimAnalysis.html</p>
+<section id="about-the-participants" class="level1">
+<h1>About the Participants</h1>
+<section id="demographic-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="demographic-characteristics">Demographic Characteristics</h2>
+<p>XX signed the consent form but 33 so far has completed the study. The average age of the sample is XX.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="douinfwozi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#douinfwozi table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#douinfwozi thead, #douinfwozi tbody, #douinfwozi tfoot, #douinfwozi tr, #douinfwozi td, #douinfwozi th {
+  border-style: none;
+}
+
+#douinfwozi p {
+  margin: 0;
+  padding: 0;
+}
+
+#douinfwozi .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#douinfwozi .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#douinfwozi .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#douinfwozi .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#douinfwozi .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#douinfwozi .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#douinfwozi .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#douinfwozi .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#douinfwozi .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#douinfwozi .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#douinfwozi .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#douinfwozi .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#douinfwozi .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#douinfwozi .gt_group_heading {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#douinfwozi .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#douinfwozi .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#douinfwozi .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#douinfwozi .gt_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#douinfwozi .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#douinfwozi .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#douinfwozi .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#douinfwozi .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#douinfwozi .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#douinfwozi .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#douinfwozi .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#douinfwozi .gt_last_summary_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#douinfwozi .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#douinfwozi .gt_first_grand_summary_row {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#douinfwozi .gt_last_grand_summary_row_top {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#douinfwozi .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#douinfwozi .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#douinfwozi .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#douinfwozi .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#douinfwozi .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#douinfwozi .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#douinfwozi .gt_left {
+  text-align: left;
+}
+
+#douinfwozi .gt_center {
+  text-align: center;
+}
+
+#douinfwozi .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#douinfwozi .gt_font_normal {
+  font-weight: normal;
+}
+
+#douinfwozi .gt_font_bold {
+  font-weight: bold;
+}
+
+#douinfwozi .gt_font_italic {
+  font-style: italic;
+}
+
+#douinfwozi .gt_super {
+  font-size: 65%;
+}
+
+#douinfwozi .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#douinfwozi .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#douinfwozi .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#douinfwozi .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#douinfwozi .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#douinfwozi .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#douinfwozi .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="<strong>Characteristic</strong>"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>N = 33</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>"><strong>N = 33</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which gender do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Female</td>
+<td headers="stat_0" class="gt_row gt_center">18 (55%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Gender variant or non-conforming</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Male</td>
+<td headers="stat_0" class="gt_row gt_center">14 (42%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which ethnicity do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not Hispanic or Latino or Spanish Origin</td>
+<td headers="stat_0" class="gt_row gt_center">31 (94%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Prefer not to answer</td>
+<td headers="stat_0" class="gt_row gt_center">2 (6.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Which race do you identify with?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Asian</td>
+<td headers="stat_0" class="gt_row gt_center">4 (12%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Black or African American</td>
+<td headers="stat_0" class="gt_row gt_center">6 (18%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Native Hawaiian or Other Pacific Islander</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Prefer not to answer</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Two or more races</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;White</td>
+<td headers="stat_0" class="gt_row gt_center">20 (61%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">In which country did you receive most of your education?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Outside the United States</td>
+<td headers="stat_0" class="gt_row gt_center">2 (6.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;United States</td>
+<td headers="stat_0" class="gt_row gt_center">31 (94%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">What is the highest level of education you have achieved?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;__other</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;College</td>
+<td headers="stat_0" class="gt_row gt_center">13 (39%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Graduate school</td>
+<td headers="stat_0" class="gt_row gt_center">16 (48%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Middle/High school</td>
+<td headers="stat_0" class="gt_row gt_center">3 (9.1%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">How many math classes have you taken after high school?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;1</td>
+<td headers="stat_0" class="gt_row gt_center">4 (12%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;2</td>
+<td headers="stat_0" class="gt_row gt_center">11 (33%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;3</td>
+<td headers="stat_0" class="gt_row gt_center">1 (3.0%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;3 or more</td>
+<td headers="stat_0" class="gt_row gt_center">16 (48%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">If you are in a college, university or any postsecondary institution, what is your major or your field of study?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Non-STEM</td>
+<td headers="stat_0" class="gt_row gt_center">12 (36%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not applicable</td>
+<td headers="stat_0" class="gt_row gt_center">8 (24%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;STEM (science, technology, engineering, and mathematics) and social sciences</td>
+<td headers="stat_0" class="gt_row gt_center">13 (39%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">if you have a minor, what is your minor in?</td>
+<td headers="stat_0" class="gt_row gt_center"></td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Non-STEM</td>
+<td headers="stat_0" class="gt_row gt_center">10 (30%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;Not applicable</td>
+<td headers="stat_0" class="gt_row gt_center">14 (42%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left">&nbsp;&nbsp;&nbsp;&nbsp;STEM</td>
+<td headers="stat_0" class="gt_row gt_center">9 (27%)</td></tr>
+    <tr><td headers="label" class="gt_row gt_left" style="font-weight: bold;">Are you a working professional (not attending college or any postsecondary school)?</td>
+<td headers="stat_0" class="gt_row gt_center">19 (58%)</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> n (%)</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="math-anxiety" class="level2">
+<h2 class="anchored" data-anchor-id="math-anxiety">Math Anxiety</h2>
+<p>Participants completed the nine-question Abbreviated Math Anxiety Scale, along a Likert scale from 1 (<em>low anxiety</em>) to 5 (<em>high anxiety</em>). On average, the participants had low math anxiety (<em>Mean</em>=2.48).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="analytic-plan" class="level1">
+<h1>Analytic Plan</h1>
+<p>After participants complete the demographic questionnaires, participants take both phonological and visual span tasks, from which load information is taken (80% for high difficulty and 99% for low difficulty for each type). Participants then complete the dual span tasks, with three blocks/task conditions: only neutral, all-spacing conditions, and all-spacing conditions with parentheses.</p>
+<p>The final dataset consisted of participants’ background characteristics, as well as accuracy and response times for arithmetic problems under working memory load (type and difficulty) and spacing conditions. Outliers are defined as more than three standard deviations above or below the mean; however, they will not be removed.</p>
+</section>
+<section id="descriptive-statistics" class="level1">
+<h1>Descriptive Statistics</h1>
+<p>From each of the 33 participants, RTs and accuracy for 180 trials (60 arithmetic problems, 3 task conditions) were gathered. In a longform dataset, there were 5940 rows. Data cleaning was then conducted:</p>
+<ul>
+<li>45 trials (.8% of all trials) were removed due to no expressions being displayed during one block (all for one participant)</li>
+<li>For those with incorrect answers, 646 RTs (10.8%) were removed (inserted NA).</li>
+</ul>
+<p>RTs were converted to seconds (ms/1000) for the following analysis. Seven RTs were found to be outliers but were not removed; RTs were also logarithmically-transformed.</p>
+<p>The mean for the RT variable (<em>n</em> = 5249 trials) is 2 seconds (median = 1.3s, standard deviation = 9.2s). The mean for the acc variable (<em>n</em> = 5895 trials) is 0.89 (med = 1.0, sd = 0.3s).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>    vars    n mean   sd median trimmed  mad  min    max  range  skew kurtosis
+rt     1 5249 2.00 9.17    1.3    1.43 0.72 0.31 486.43 486.12 45.91  2268.19
+acc    2 5895 0.89 0.31    1.0    0.99 0.00 0.00   1.00   1.00 -2.50     4.25
+      se
+rt  0.13
+acc 0.00</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       vars    n mean   sd median trimmed  mad   min  max range  skew kurtosis
+log_rt    1 5249 0.33 0.67   0.26    0.28 0.55 -1.17 6.19  7.36  1.07     3.59
+acc       2 5895 0.89 0.31   1.00    0.99 0.00  0.00 1.00  1.00 -2.50     4.25
+         se
+log_rt 0.01
+acc    0.00</code></pre>
+</div>
+</div>
+</section>
+<section id="inferential-statistics" class="level1">
+<h1>Inferential Statistics</h1>
+<p>To answer my research questions, I conducted analyses of variance (ANOVAs). My dependent measures were accuracy and response times for arithmetic problems with working memory load difficulty and type and spacing as factors. Post-hoc comparisons were conducted for significant interactions.</p>
+<section id="rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory" class="level2">
+<h2 class="anchored" data-anchor-id="rq-1.-to-what-extent-does-multi-operand-arithmetic-involve-working-memory">RQ 1. To what extent does multi-operand arithmetic involve working memory?</h2>
+<p>To answer this question, I will conduct an ANOVA with 2 working memory load difficulties (high and low) x 2 types (phonological and visuospatial) as factors in the first dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences in accuracy and response times between types and with lower accuracy and slower response times in high vs.&nbsp;low load.</p>
+<section id="main-effect-of-load" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-load">Main Effect of Load</h3>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+wmLoad*    2 66       1.50      0.50       1.50       1.50     0.74       1.00
+load*      3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       1.85      0.91       1.59       1.77     0.89       0.63
+acc        5 66       0.89      0.16       0.93       0.92     0.10       0.40
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+wmLoad*       2.00      1.00  0.00    -2.03     0.06
+load*         1.00      0.00   NaN      NaN     0.00
+rt            5.37      4.74  1.12     1.70     0.11
+acc           1.00      0.60 -1.46     1.03     0.02
+------------------------------------------------------------ 
+load: low
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+wmLoad*    2 66       1.50      0.50       1.50       1.50     0.74       1.00
+load*      3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       2.28      1.54       1.80       2.08     1.09       0.49
+acc        5 66       0.87      0.15       0.93       0.90     0.10       0.40
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+wmLoad*       2.00      1.00  0.00    -2.03     0.06
+load*         1.00      0.00   NaN      NaN     0.00
+rt            7.83      7.35  1.27     1.28     0.19
+acc           1.00      0.60 -1.24     0.71     0.02</code></pre>
+</div>
+</div>
+</section>
+<section id="main-effect-of-wm-type" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-wm-type">Main Effect of WM Type</h3>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+wmLoad: p
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*      2 66       1.50      0.50       1.50       1.50     0.74       1.00
+wmLoad*    3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       1.97      1.30       1.64       1.76     0.96       0.49
+acc        5 66       0.88      0.15       0.93       0.90     0.10       0.40
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+load*         2.00      1.00  0.00    -2.03     0.06
+wmLoad*       1.00      0.00   NaN      NaN     0.00
+rt            7.83      7.35  2.09     5.70     0.16
+acc           1.00      0.60 -1.28     0.73     0.02
+------------------------------------------------------------ 
+wmLoad: v
+        vars  n       mean        sd     median    trimmed      mad        min
+id1        1 66 8610131.24 117997.22 8645491.00 8625542.41 87649.83 8302183.00
+load*      2 66       1.50      0.50       1.50       1.50     0.74       1.00
+wmLoad*    3 66       1.00      0.00       1.00       1.00     0.00       1.00
+rt         4 66       2.16      1.26       1.74       2.01     1.02       0.63
+acc        5 66       0.88      0.16       0.93       0.91     0.10       0.40
+               max     range  skew kurtosis       se
+id1     8738211.00 436028.00 -1.06     0.03 14524.45
+load*         2.00      1.00  0.00    -2.03     0.06
+wmLoad*       1.00      0.00   NaN      NaN     0.00
+rt            5.37      4.74  0.96    -0.03     0.16
+acc           1.00      0.60 -1.41     0.94     0.02</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>load <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>load)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>wmLoad <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>wmLoad)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.1</span><span class="sc">$</span>id1 <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.1</span><span class="sc">$</span>id1)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  123.7   3.865               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+load       1   5.94   5.943   4.728 0.0372 *
+Residuals 32  40.22   1.257                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66  44.97  0.6813               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  31.03  0.9696               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1  0.399  0.3988   2.391  0.132
+Residuals 32  5.337  0.1668               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66  5.877 0.08904               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32   2.35 0.07342               
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+load       1 0.00862 0.008620   0.984  0.329
+Residuals 32 0.28027 0.008758               
+
+Error: Within
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 66 0.5244 0.007946               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  123.7   3.865               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1  1.131  1.1310   1.594  0.216
+Residuals 32 22.706  0.7096               
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66   67.3    1.02               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  31.03  0.9696               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+wmLoad     1 0.3081 0.30811   3.673 0.0643 .
+Residuals 32 2.6840 0.08388                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Error: Within
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 66   8.62  0.1306               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32   2.35 0.07342               
+
+Error: id1:wmLoad
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+wmLoad     1 0.00054 0.000539   0.078  0.782
+Residuals 32 0.22168 0.006928               
+
+Error: Within
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 66 0.5911 0.008956               </code></pre>
+</div>
+</div>
+</section>
+<section id="interaction-effects" class="level3">
+<h3 class="anchored" data-anchor-id="interaction-effects">Interaction Effects</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  123.7   3.865               
+
+Error: wmLoad
+       Df Sum Sq Mean Sq
+wmLoad  1  1.131   1.131
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+load       1   5.94   5.943   4.728 0.0372 *
+Residuals 32  40.22   1.257                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  22.71  0.7096               
+
+Error: id1:load:wmLoad
+            Df Sum Sq Mean Sq F value Pr(&gt;F)
+load:wmLoad  1  0.091  0.0906   0.138  0.713
+Residuals   32 21.041  0.6575               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  31.03  0.9696               
+
+Error: wmLoad
+       Df Sum Sq Mean Sq
+wmLoad  1 0.3081  0.3081
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1  0.399  0.3988   2.391  0.132
+Residuals 32  5.337  0.1668               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  2.684 0.08388               
+
+Error: id1:load:wmLoad
+            Df Sum Sq Mean Sq F value Pr(&gt;F)
+load:wmLoad  1 0.0036 0.00360    0.04  0.843
+Residuals   32 2.8810 0.09003               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load<span class="sc">*</span>wmLoad), <span class="at">data=</span>dat<span class="fl">.1</span>)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32   2.35 0.07342               
+
+Error: wmLoad
+       Df    Sum Sq   Mean Sq
+wmLoad  1 0.0005387 0.0005387
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+load       1 0.00862 0.008620   0.984  0.329
+Residuals 32 0.28027 0.008758               
+
+Error: id1:wmLoad
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+Residuals 32 0.2217 0.006928               
+
+Error: id1:load:wmLoad
+            Df  Sum Sq Mean Sq F value  Pr(&gt;F)   
+load:wmLoad  1 0.06519 0.06519     8.8 0.00566 **
+Residuals   32 0.23704 0.00741                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+<p>It looks like there is an interaction effect of <code>load*wmLoad</code> on <code>acc</code>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-10-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  1.74 0.71   1.59    1.71  0.90 0.66  3.01  2.35  0.28    -1.30
+acc        5 33  0.86 0.17   0.93    0.89  0.10 0.40  1.00  0.60 -1.20     0.40
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.12
+acc     0.03
+------------------------------------------------------------ 
+load: low
+wmLoad: p
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+rt         4 33  2.21 1.68   1.83    1.94  1.05 0.49  7.83  7.35  1.59     2.22
+acc        5 33  0.89 0.14   0.93    0.91  0.10 0.53  1.00  0.47 -1.16     0.22
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.29
+acc     0.02
+------------------------------------------------------------ 
+load: high
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+rt         4 33  1.97 1.07   1.59    1.85  0.83 0.63  5.37  4.74  1.13     1.03
+acc        5 33  0.91 0.15   1.00    0.94  0.00 0.53  1.00  0.47 -1.73     1.67
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.19
+acc     0.03
+------------------------------------------------------------ 
+load: low
+wmLoad: v
+        vars  n  mean   sd median trimmed   mad  min   max range  skew kurtosis
+id1*       1 33 17.00 9.67  17.00   17.00 11.86 1.00 33.00 32.00  0.00    -1.31
+load*      2 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+wmLoad*    3 33  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN      NaN
+rt         4 33  2.35 1.42   1.77    2.22  1.09 0.64  5.36  4.71  0.69    -0.87
+acc        5 33  0.85 0.17   0.87    0.88  0.20 0.40  1.00  0.60 -1.14     0.35
+          se
+id1*    1.68
+load*   0.00
+wmLoad* 0.00
+rt      0.25
+acc     0.03</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.3737432</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0.6768787</code></pre>
+</div>
+</div>
+</section>
+<section id="effect-sizes" class="level3">
+<h3 class="anchored" data-anchor-id="effect-sizes">Effect Sizes</h3>
+<p>Effect sizes were computed to examine whether there is a meaningful difference in arithmetic performance when under low vs.&nbsp;high working memory demand (or whether working memory manipulation affected arithmetic expressions).</p>
+<p>The RTs of the low (M=2.28s, SD=1.54s) and high loads (M=1.85, SD=0.91) have a correlation of 0.37 with an effect size of Cohen’s <em>d<sub>rm,pooled</sub></em> = -0.26 (Lakens, 2013, formula 8, computed in this <a href="https://www.psychometrica.de/effect_size.html">link</a>; the manipulation did not work as it should have; there is an adverse effect).</p>
+<p>The ACCs of the low (M=0.87, SD=0.15) and high loads (M=0.89, SD=0.16) have a correlation of 0.68 with an effect size of Cohen’s <em>d<sub>rm,pooled</sub></em> = -0.20 (the manipulation did not work as it should have; there is an adverse effect).</p>
+</section>
+<section id="some-interpretations" class="level3">
+<h3 class="anchored" data-anchor-id="some-interpretations">Some interpretations</h3>
+<p>Some reversed results are observed. It might be practice effects, where participants did more poorly on first trials than on second trials.</p>
+</section>
+</section>
+<section id="rq-2.-is-working-memory-affected-by-changes-in-spacing" class="level2">
+<h2 class="anchored" data-anchor-id="rq-2.-is-working-memory-affected-by-changes-in-spacing">RQ 2. Is working memory affected by changes in spacing?</h2>
+<p>To answer this question, I will conduct an ANOVA with 2 working memory load difficulty x 2 types x 3 spacing conditions as factors in the second dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences in accuracy and response times between types and with lower accuracy and slower response times in high vs.&nbsp;low load. There should be a lower accuracy and slower response times for incongruent than congruent trials.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span> <span class="ot">&lt;-</span> dat <span class="sc">%&gt;%</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(display<span class="sc">==</span><span class="st">"expression"</span>,</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>       task<span class="sc">==</span><span class="st">"Arithmetic With Spacing"</span>,</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>       exprType<span class="sc">==</span><span class="st">"experimental"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,load,wmLoad,spCond) <span class="sc">%&gt;%</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">wmLoad=</span><span class="fu">ifelse</span>(wmLoad<span class="sc">==</span><span class="st">"low_p"</span><span class="sc">|</span>wmLoad<span class="sc">==</span><span class="st">"high_p"</span>,<span class="st">"p"</span>,<span class="st">"v"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(dat<span class="fl">.2</span>, <span class="fu">aes</span>(<span class="at">x=</span>load, <span class="at">y=</span>rt)) <span class="sc">+</span> </span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(dat<span class="fl">.2</span>, <span class="fu">aes</span>(<span class="at">x=</span>load, <span class="at">y=</span><span class="fu">log</span>(rt))) <span class="sc">+</span> </span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a>c <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(dat<span class="fl">.2</span>, <span class="fu">aes</span>(<span class="at">x=</span>load, <span class="at">y=</span>acc)) <span class="sc">+</span> </span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a>plots <span class="ot">&lt;-</span> <span class="fu">ggarrange</span>(a, b, c,</span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>          <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>),</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a>          <span class="at">ncol =</span><span class="dv">3</span>, <span class="at">nrow =</span> <span class="dv">1</span>)</span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a>plots</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span><span class="sc">$</span>load <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.2</span><span class="sc">$</span>load)</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span><span class="sc">$</span>wmLoad <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.2</span><span class="sc">$</span>wmLoad)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span><span class="sc">$</span>spCond <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.2</span><span class="sc">$</span>spCond)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span><span class="sc">$</span>id1 <span class="ot">&lt;-</span> <span class="fu">factor</span>(dat<span class="fl">.2</span><span class="sc">$</span>id1)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.2</span> <span class="sc">%&gt;%</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(id1, wmLoad,load,rt,acc) <span class="sc">%&gt;%</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>  psych<span class="sc">::</span><span class="fu">describeBy</span>(<span class="at">group=</span><span class="st">"load"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+        vars   n  mean    sd median trimmed   mad  min    max  range  skew
+id1*       1 189 17.65  9.28  18.00   17.75 11.86 1.00  33.00  32.00 -0.05
+wmLoad*    2 189  1.48  0.50   1.00    1.47  0.00 1.00   2.00   1.00  0.09
+load*      3 189  1.00  0.00   1.00    1.00  0.00 1.00   1.00   0.00   NaN
+rt         4 181  2.96 12.72   1.55    1.57  0.73 0.51 162.66 162.15 11.40
+acc        5 189  0.86  0.26   1.00    0.92  0.00 0.00   1.00   1.00 -2.06
+        kurtosis   se
+id1*       -1.16 0.67
+wmLoad*    -2.00 0.04
+load*        NaN 0.00
+rt        136.29 0.95
+acc         3.59 0.02
+------------------------------------------------------------ 
+load: low
+        vars   n  mean   sd median trimmed   mad  min   max range  skew
+id1*       1 198 17.00 9.55  17.00   17.00 11.86 1.00 33.00 32.00  0.00
+wmLoad*    2 198  1.50 0.50   1.50    1.50  0.74 1.00  2.00  1.00  0.00
+load*      3 198  2.00 0.00   2.00    2.00  0.00 2.00  2.00  0.00   NaN
+rt         4 185  2.01 1.59   1.52    1.71  0.80 0.55 10.99 10.44  2.83
+acc        5 198  0.83 0.28   1.00    0.90  0.00 0.00  1.00  1.00 -1.80
+        kurtosis   se
+id1*       -1.22 0.68
+wmLoad*    -2.01 0.04
+load*        NaN 0.00
+rt         10.00 0.12
+acc         2.36 0.02</code></pre>
+</div>
+</div>
+<section id="main-effect-of-load-1" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-load-1">Main Effect of Load</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">2.1</span> <span class="ot">&lt;-</span> dat<span class="fl">.2</span> <span class="sc">%&gt;%</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,load) <span class="sc">%&gt;%</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">2.1</span>)</span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  668.9    20.9               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1   13.7   13.68   0.682  0.415
+Residuals 32  641.5   20.05               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">2.1</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  15.78  0.4931               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1  0.000 0.00044   0.002  0.965
+Residuals 32  7.182 0.22442               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">2.1</span>)</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  1.703 0.05322               
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)  
+load       1 0.02212 0.022122   6.824 0.0136 *
+Residuals 32 0.10375 0.003242                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</section>
+<section id="main-effect-of-wm-type-1" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-wm-type-1">Main Effect of WM Type</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">2.2</span> <span class="ot">&lt;-</span> dat<span class="fl">.2</span> <span class="sc">%&gt;%</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,wmLoad) <span class="sc">%&gt;%</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">2.2</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  666.2   20.82               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1   18.6   18.63   0.943  0.339
+Residuals 32  631.9   19.75               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">2.2</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  14.98  0.4683               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1  0.095 0.09456   0.522  0.475
+Residuals 32  5.795 0.18109               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">2.2</span>)</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  1.722 0.05381               
+
+Error: id1:wmLoad
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+wmLoad     1 0.00024 0.000237   0.057  0.813
+Residuals 32 0.13258 0.004143               </code></pre>
+</div>
+</div>
+</section>
+<section id="main-effect-of-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-spacing">Main Effect of Spacing</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">2.3</span> <span class="ot">&lt;-</span> dat<span class="fl">.2</span> <span class="sc">%&gt;%</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,spCond) <span class="sc">%&gt;%</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">2.3</span>)</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond     1    4.1    4.06   0.125  0.726
+Residuals 31 1009.4   32.56               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond     2    7.5   3.773   0.261  0.771
+Residuals 61  882.3  14.465               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">2.3</span>)</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond     1  0.109  0.1093   0.138  0.712
+Residuals 31 24.485  0.7898               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond     2  0.509  0.2544   1.234  0.298
+Residuals 61 12.569  0.2061               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">2.3</span>)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  2.569 0.08028               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value   Pr(&gt;F)    
+spCond     2 0.7182  0.3591   9.887 0.000181 ***
+Residuals 64 2.3244  0.0363                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
+</section>
+<section id="interaction-effects-1" class="level3">
+<h3 class="anchored" data-anchor-id="interaction-effects-1">Interaction Effects</h3>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-15-2.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory" class="level2">
+<h2 class="anchored" data-anchor-id="rq-3.-do-perceptual-cues-such-as-parenthesis-influence-the-interaction-between-spacing-and-working-memory">RQ 3. Do perceptual cues such as parenthesis influence the interaction between spacing and working memory?</h2>
+<p>To answer this question, I will also conduct an ANOVA with 2 working memory load difficulties x 2 type x 3 spacing conditions as factors on the third dual-task condition. The working memory task will likely interfere with the arithmetic task with no differences between types and with more significant interference in high vs.&nbsp;low load. Because we expect parentheses to overcome the effect of incongruent spacing, there should be no difference between spacing conditions within each load and type (i.e., the spacing effect is weaker).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.3</span> <span class="ot">&lt;-</span> dat <span class="sc">%&gt;%</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(display<span class="sc">==</span><span class="st">"expression"</span>,</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>       task<span class="sc">==</span><span class="st">"Arithmetic With Parens"</span>,</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>       exprType<span class="sc">==</span><span class="st">"experimental"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,load,wmLoad,spCond) <span class="sc">%&gt;%</span></span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">wmLoad=</span><span class="fu">ifelse</span>(wmLoad<span class="sc">==</span><span class="st">"low_p"</span><span class="sc">|</span>wmLoad<span class="sc">==</span><span class="st">"high_p"</span>,<span class="st">"p"</span>,<span class="st">"v"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a><span class="co"># dat.3 %&gt;%</span></span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a><span class="co">#   group_by(wmLoad,load) %&gt;%</span></span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a><span class="co">#   summarize(n=n())</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-17-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+ Descriptive statistics by group 
+load: high
+        vars   n  mean   sd median trimmed   mad  min   max range  skew
+id1*       1 198 17.00 9.55  17.00   17.00 11.86 1.00 33.00 32.00  0.00
+wmLoad*    2 198  1.50 0.50   1.50    1.50  0.74 1.00  2.00  1.00  0.00
+load*      3 198  1.00 0.00   1.00    1.00  0.00 1.00  1.00  0.00   NaN
+rt         4 198  1.63 1.06   1.51    1.52  0.69 0.43 12.53 12.10  5.69
+acc        5 198  0.92 0.16   1.00    0.96  0.00 0.25  1.00  0.75 -2.08
+        kurtosis   se
+id1*       -1.22 0.68
+wmLoad*    -2.01 0.04
+load*        NaN 0.00
+rt         54.21 0.08
+acc         3.59 0.01
+------------------------------------------------------------ 
+load: low
+        vars   n  mean   sd median trimmed   mad  min  max range  skew kurtosis
+id1*       1 198 17.00 9.55  17.00   17.00 11.86 1.00 33.0 32.00  0.00    -1.22
+wmLoad*    2 198  1.50 0.50   1.50    1.50  0.74 1.00  2.0  1.00  0.00    -2.01
+load*      3 198  2.00 0.00   2.00    2.00  0.00 2.00  2.0  0.00   NaN      NaN
+rt         4 198  1.82 1.03   1.62    1.67  0.83 0.55  6.5  5.95  1.82     4.37
+acc        5 198  0.94 0.14   1.00    0.97  0.00 0.25  1.0  0.75 -2.21     4.70
+          se
+id1*    0.68
+wmLoad* 0.04
+load*   0.00
+rt      0.07
+acc     0.01</code></pre>
+</div>
+</div>
+<section id="main-effect-of-load-2" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-load-2">Main Effect of Load</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">3.1</span> <span class="ot">&lt;-</span> dat<span class="fl">.3</span> <span class="sc">%&gt;%</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,load) <span class="sc">%&gt;%</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">3.1</span>)</span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  24.09  0.7529               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+load       1  0.619  0.6187   5.128 0.0305 *
+Residuals 32  3.861  0.1206                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">3.1</span>)</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  8.975  0.2805               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)   
+load       1 0.2042 0.20420   7.661 0.0093 **
+Residuals 32 0.8529 0.02665                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>load <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>load), <span class="at">data=</span>dat.<span class="fl">3.1</span>)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32 0.3593 0.01123               
+
+Error: id1:load
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+load       1 0.00263 0.002630   0.789  0.381
+Residuals 32 0.10674 0.003336               </code></pre>
+</div>
+</div>
+</section>
+<section id="main-effect-of-wm-type-2" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-wm-type-2">Main Effect of WM Type</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">3.2</span> <span class="ot">&lt;-</span> dat<span class="fl">.3</span> <span class="sc">%&gt;%</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,wmLoad) <span class="sc">%&gt;%</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">3.2</span>)</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  24.09  0.7529               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+wmLoad     1  0.552  0.5523   2.838  0.102
+Residuals 32  6.228  0.1946               </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">3.2</span>)</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  8.774  0.2742               
+
+Error: id1:wmLoad
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+wmLoad     1 0.1167 0.11675   2.962 0.0949 .
+Residuals 32 1.2611 0.03941                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>wmLoad), <span class="at">data=</span>dat.<span class="fl">3.2</span>)</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32 0.3593 0.01123               
+
+Error: id1:wmLoad
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+wmLoad     1 0.00042 0.000421    0.12  0.732
+Residuals 32 0.11243 0.003513               </code></pre>
+</div>
+</div>
+</section>
+<section id="main-effect-of-spacing-1" class="level3">
+<h3 class="anchored" data-anchor-id="main-effect-of-spacing-1">Main Effect of Spacing</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a>dat.<span class="fl">3.3</span> <span class="ot">&lt;-</span> dat<span class="fl">.3</span> <span class="sc">%&gt;%</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,spCond) <span class="sc">%&gt;%</span></span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-7"><a href="#cb61-7" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.1</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(rt<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">3.3</span>)</span>
+<span id="cb61-8"><a href="#cb61-8" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  36.14   1.129               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value Pr(&gt;F)  
+spCond     2  1.841  0.9204   3.812 0.0273 *
+Residuals 64 15.454  0.2415                 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.2</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">log</span>(rt)<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">3.3</span>)</span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  13.05  0.4077               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value  Pr(&gt;F)   
+spCond     2  0.526 0.26298   5.758 0.00502 **
+Residuals 64  2.923 0.04567                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb65"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a>aov<span class="fl">.3</span> <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>spCond <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>spCond), <span class="at">data=</span>dat.<span class="fl">3.3</span>)</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aov<span class="fl">.3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32 0.5389 0.01684               
+
+Error: id1:spCond
+          Df  Sum Sq  Mean Sq F value Pr(&gt;F)
+spCond     2 0.01097 0.005485   1.485  0.234
+Residuals 64 0.23643 0.003694               </code></pre>
+</div>
+</div>
+</section>
+<section id="interaction-effects-2" class="level3">
+<h3 class="anchored" data-anchor-id="interaction-effects-2">Interaction Effects</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb67"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>aovx <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>spCond<span class="sc">*</span>load<span class="sc">*</span>wmLoad <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>(spCond<span class="sc">*</span>load<span class="sc">*</span>wmLoad)), <span class="at">data=</span>dat<span class="fl">.3</span>)</span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aovx)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+Residuals 32  2.156 0.06736               
+
+Error: id1:spCond
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond     2 0.0439 0.02194   1.485  0.234
+Residuals 64 0.9457 0.01478               
+
+Error: id1:load
+          Df Sum Sq Mean Sq F value Pr(&gt;F)
+load       1 0.0158 0.01578   0.789  0.381
+Residuals 32 0.6405 0.02002               
+
+Error: id1:wmLoad
+          Df Sum Sq  Mean Sq F value Pr(&gt;F)
+wmLoad     1 0.0025 0.002525    0.12  0.732
+Residuals 32 0.6746 0.021080               
+
+Error: id1:spCond:load
+            Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond:load  2 0.0723 0.03614   2.134  0.127
+Residuals   64 1.0840 0.01694               
+
+Error: id1:spCond:wmLoad
+              Df Sum Sq  Mean Sq F value Pr(&gt;F)
+spCond:wmLoad  2 0.0022 0.001105   0.054  0.948
+Residuals     64 1.3207 0.020636               
+
+Error: id1:load:wmLoad
+            Df Sum Sq Mean Sq F value  Pr(&gt;F)   
+load:wmLoad  1 0.1420 0.14205   8.177 0.00741 **
+Residuals   32 0.5559 0.01737                   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Error: id1:spCond:load:wmLoad
+                   Df Sum Sq Mean Sq F value Pr(&gt;F)
+spCond:load:wmLoad  2 0.0597 0.02983   1.618  0.206
+Residuals          64 1.1799 0.01844               </code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-22-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-22-3.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="parenthesis-vs.-no-parenthesis-visuals" class="level2">
+<h2 class="anchored" data-anchor-id="parenthesis-vs.-no-parenthesis-visuals">Parenthesis vs.&nbsp;no parenthesis visuals</h2>
+<section id="spacing-effect-and-load-by-task" class="level3">
+<h3 class="anchored" data-anchor-id="spacing-effect-and-load-by-task">Spacing effect and load by task</h3>
+<p>There are significant interactions on <code>acc</code>: <code>spCond*task</code> &amp; <code>load*task</code>. There are main effects of <code>spCond</code> &amp; <code>task</code> .</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb69"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a>dat<span class="fl">.4</span> <span class="ot">&lt;-</span> dat <span class="sc">%&gt;%</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(display<span class="sc">==</span><span class="st">"expression"</span>,</span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>       task<span class="sc">!=</span><span class="st">"Arithmetic No Spacing"</span>,</span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a>       exprType<span class="sc">==</span><span class="st">"experimental"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(id1,task,load,wmLoad,spCond) <span class="sc">%&gt;%</span></span>
+<span id="cb69-6"><a href="#cb69-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">wmLoad=</span><span class="fu">ifelse</span>(wmLoad<span class="sc">==</span><span class="st">"low_p"</span><span class="sc">|</span>wmLoad<span class="sc">==</span><span class="st">"high_p"</span>,<span class="st">"p"</span>,<span class="st">"v"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb69-7"><a href="#cb69-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">log_rt=</span><span class="fu">mean</span>(log_rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb69-8"><a href="#cb69-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">acc=</span><span class="fu">mean</span>(acc),</span>
+<span id="cb69-9"><a href="#cb69-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">rt=</span><span class="fu">mean</span>(rt, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb69-10"><a href="#cb69-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-11"><a href="#cb69-11" aria-hidden="true" tabindex="-1"></a>aovx <span class="ot">&lt;-</span> <span class="fu">aov</span>(acc<span class="sc">~</span>spCond<span class="sc">*</span>load<span class="sc">*</span>task <span class="sc">+</span> <span class="fu">Error</span> (id1<span class="sc">/</span>(spCond<span class="sc">*</span>load<span class="sc">*</span>task)), <span class="at">data=</span>dat<span class="fl">.4</span>)</span>
+<span id="cb69-12"><a href="#cb69-12" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(aovx)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Error: id1
+     Df   Sum Sq  Mean Sq
+load  1 0.001778 0.001778
+
+Error: id1:spCond
+       Df Sum Sq Mean Sq
+spCond  2  1.174  0.5872
+
+Error: id1:load
+     Df  Sum Sq Mean Sq
+load  1 0.02209 0.02209
+
+Error: id1:task
+     Df Sum Sq Mean Sq
+load  1  1.303   1.303
+
+Error: id1:spCond:load
+       Df  Sum Sq Mean Sq
+spCond  2 0.08761 0.04381
+
+Error: id1:spCond:task
+       Df Sum Sq Mean Sq
+spCond  2   1.44    0.72
+
+Error: id1:load:task
+     Df  Sum Sq Mean Sq
+load  1 0.09983 0.09983
+
+Error: id1:spCond:load:task
+       Df  Sum Sq Mean Sq
+spCond  2 0.09357 0.04679
+
+Error: Within
+                  Df Sum Sq Mean Sq F value   Pr(&gt;F)    
+spCond             2   0.76  0.3788   9.041 0.000132 ***
+load               1   0.02  0.0249   0.595 0.440882    
+task               1   0.62  0.6244  14.905 0.000123 ***
+spCond:load        2   0.08  0.0392   0.936 0.392662    
+spCond:task        2   0.90  0.4508  10.761 2.46e-05 ***
+load:task          1   0.01  0.0143   0.341 0.559396    
+spCond:load:task   2   0.04  0.0220   0.524 0.592195    
+Residuals        759  31.80  0.0419                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb71"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="co"># cannot do rt because not everyone had values in all 12 conditions</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-24-1.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-24-2.png" class="img-fluid" width="768"></p>
+</div>
+<div class="cell-output-display">
+<p><img src="Output_PrelimAnalysis_files/figure-html/unnamed-chunk-24-3.png" class="img-fluid" width="768"></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

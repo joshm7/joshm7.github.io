@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "index",
+    "section": "",
+    "text": "MCLS 2023\n\nOutput Analysis\nPresentation"
+  },
+  {
+    "objectID": "speed-and-distance.html",
+    "href": "speed-and-distance.html",
+    "title": "speed-and-distance",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "speed-and-distance.html#running-code",
+    "href": "speed-and-distance.html#running-code",
+    "title": "speed-and-distance",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Project Index\nMCLS 2023\n\nOutput and Analysis\nPresentation"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#some-statistics",
+    "href": "mcls2023/MCLS_Presentation.html#some-statistics",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Some Statistics",
+    "text": "Some Statistics\n\nOne in three individuals in the U.S. with a Bachelor’s degree lack important numeracy skills (e.g., understanding complex quantitative information, recognizing mathematical patterns and relationships, and solving problems that require multiple steps)\nAmong 16-34-year-old individuals’ numeracy in 30 countries, U.S. is ranked 26\nFor every standard deviation increase in numeracy, there is an increase in 9.4% of monthly earnings"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#whole-number-arithmetic",
+    "href": "mcls2023/MCLS_Presentation.html#whole-number-arithmetic",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Whole Number Arithmetic",
+    "text": "Whole Number Arithmetic\n\nDomain-specific: Recognizing numbers and operations and knowledge about the magnitude of numbers\nDomain-general: Working memory\n\n7% to 19% reduction in response time while computing arithmetic under a working memory load (Chen & Bailey, 2020)\nVisuospatial working memory and arithmetic tasks recruit similar neural regions (Matejko & Ansari, 2022)"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#the-spacing-effect-and-perceptual-processes",
+    "href": "mcls2023/MCLS_Presentation.html#the-spacing-effect-and-perceptual-processes",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "The Spacing Effect and Perceptual Processes",
+    "text": "The Spacing Effect and Perceptual Processes\n\nSpacing: the proximity between operands and operators\nWhen spacing is congruent to the order of operations (with narrower spacing associated with earlier procedures), individuals make fewer errors and respond more quickly\n\nCongruent:     2      +      3x4\nIncongruent:   2+3      x      4"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#integrating-theories-of-cognition-and-perception",
+    "href": "mcls2023/MCLS_Presentation.html#integrating-theories-of-cognition-and-perception",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Integrating theories of cognition and perception",
+    "text": "Integrating theories of cognition and perception\n\nWhy does the spacing effect persist?\nWhile much has been theorized about why visual and perceptual features affect problem-solving, there is a lack of empirical research regarding the mechanisms underlying this learning process.\n\nCentral executive (Rivera & Garrigan, 2016)\nInhibitory control (Closser et al., 2023)"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#research-questions",
+    "href": "mcls2023/MCLS_Presentation.html#research-questions",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nHow does working memory influence multi-operand arithmetic performance?\nDoes spacing influence working memory?\nDo parentheses reduce the spacing effect (and effect of spacing on WM)?\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#hypothesis",
+    "href": "mcls2023/MCLS_Presentation.html#hypothesis",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Hypothesis",
+    "text": "Hypothesis\nIndividuals perform better when there is less demand for working memory and when spacing is congruent with order of operations."
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#sample-procedure",
+    "href": "mcls2023/MCLS_Presentation.html#sample-procedure",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Sample & Procedure",
+    "text": "Sample & Procedure\n\nN = 114 adults, convenience sample\nDemographic background + math anxiety\nBaseline WM tasks: recall for dot patterns (visuospatial) and letters (verbal)\nCompleted dual tasks"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#dual-task-methodology",
+    "href": "mcls2023/MCLS_Presentation.html#dual-task-methodology",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Dual Task Methodology",
+    "text": "Dual Task Methodology\n\nPrimary Task: Arithmetic\nSecondary Task: Working Memory\n\n2 Types: dot patterns (visuospatial) and letters (verbal)\n2 Load Difficulties: Low and High from baseline WM performance"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#trial-1",
+    "href": "mcls2023/MCLS_Presentation.html#trial-1",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Trial 1",
+    "text": "Trial 1"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#trial-2",
+    "href": "mcls2023/MCLS_Presentation.html#trial-2",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Trial 2",
+    "text": "Trial 2"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#task-conditions",
+    "href": "mcls2023/MCLS_Presentation.html#task-conditions",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Task Conditions",
+    "text": "Task Conditions\n\n3 dual-task conditions with 60 trials each\nEach condition had all WM Loads and Types\nVaried on arithmetic expression and corresponded to each research question\n\n\nno-spacing variation\nspacing-varying (congruent, incongruent, neutral)\nspacing-varying and parenthesis around multiplied operands in expressions with congruent and incongruent spacing; e.g.,   2+(3      x      4)"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#findings-so-far",
+    "href": "mcls2023/MCLS_Presentation.html#findings-so-far",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Findings, so far…",
+    "text": "Findings, so far…\n\n34 participants (30%), aged 19.4 to 68.1 years (M=31.6, SD=12.8)\nHighly educated with low math anxiety (M=2.8, SD=)\nLoad difficulties from baseline WM tasks\n\n\n\n\nLow Load\nHigh Load\n\n\nDots\n2 (SD=)\n7 (SD=)\n\n\nLetters\n2 (SD=)\n9 (SD=)"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#findings-for-rq-1",
+    "href": "mcls2023/MCLS_Presentation.html#findings-for-rq-1",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Findings for RQ 1",
+    "text": "Findings for RQ 1\n\nHow does working memory influence multi-operand arithmetic performance?\n\n\nAcross all task conditions, there is an effect of load and type (separately) on arithmetic accuracy and RT."
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#expected-findings-for-rqs-2-3",
+    "href": "mcls2023/MCLS_Presentation.html#expected-findings-for-rqs-2-3",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Expected Findings for RQs 2 & 3",
+    "text": "Expected Findings for RQs 2 & 3\n\nDoes spacing influence working memory?\n\nBetter arithmetic performance in expressions with congruent and neutral spacing\nMemory for letters/dots is better when spacing is congruent or neutral\n\nDo parentheses reduce the spacing effect (and effect of spacing on WM)?\n\nBetter arithmetic performance overall in the parenthesis dual task condition"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#discussion",
+    "href": "mcls2023/MCLS_Presentation.html#discussion",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Discussion",
+    "text": "Discussion\n\nConsider working memory in digital interventions using such perceptual principles\nPerception and WM research–how much do numbers and visuospatial working memory overlap?"
+  },
+  {
+    "objectID": "mcls2023/MCLS_Presentation.html#thank-you",
+    "href": "mcls2023/MCLS_Presentation.html#thank-you",
+    "title": "Integrating perceptual and cognitive processes in mental arithmetic",
+    "section": "Thank You",
+    "text": "Thank You\n\n\nWhat if we do not find interactions between spacing and working memory?\nIt is possible that working memory might not be holding spacing information. There have been findings where problem size did not have an effect on working memory or where findings are mixed, but effects may be moderated by math anxiety (e.g., DeCaro et al., 2010)."
+  }
+]
