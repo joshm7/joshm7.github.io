@@ -1,0 +1,209 @@
+---
+title: "Integrating perceptual and cognitive processes in mental arithmetic"
+author: Josh Medrano (presenting) & Richard Prather, Ph.D.
+institute: University of Maryland, College Park
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    progress: false
+    slide-number: true
+    incremental: true
+editor: visual
+title-slide-attributes: 
+  data-background-image: "MCLS Presentation_files/shell-example.png.webp"
+  data-background-size: contain
+  data-background-opacity: "0.25"
+---
+
+## Some Statistics
+
+-   One in three individuals in the U.S. with a Bachelor's degree lack important numeracy skills (e.g., understanding complex quantitative information, recognizing mathematical patterns and relationships, and solving problems that require multiple steps)
+-   Among 16-34-year-old individuals' numeracy in 30 countries, U.S. is ranked 26
+-   For every standard deviation increase in numeracy, there is an increase in 9.4% of monthly earnings
+
+## Whole Number Arithmetic
+
+-   Domain-specific: Recognizing numbers and operations and knowledge about the magnitude of numbers
+-   Domain-general: Working memory
+    -   7% to 19% reduction in response time while computing arithmetic under a working memory load (Chen & Bailey, 2020)
+    -   Visuospatial working memory and arithmetic tasks recruit similar neural regions (Matejko & Ansari, 2022)
+
+## The Spacing Effect and Perceptual Processes
+
+-   Spacing: the proximity between operands and operators
+-   When spacing is [**congruent**]{.underline} to the order of operations (with narrower spacing associated with earlier procedures), individuals make [**fewer errors**]{.underline} and [**respond more quickly**]{.underline}
+    -   Congruent:     2      +      3x4
+    -   Incongruent:   2+3      x      4
+
+## Integrating theories of cognition and perception
+
+-   Why does the spacing effect persist?
+-   While much has been theorized about why visual and perceptual features affect problem-solving, there is a lack of empirical research regarding the mechanisms underlying this learning process.
+    -   Central executive (Rivera & Garrigan, 2016)
+    -   Inhibitory control (Closser et al., 2023)
+
+## Research Questions
+
+1.  How does working memory influence multi-operand arithmetic performance?
+2.  Does spacing influence working memory?
+3.  Do parentheses reduce the spacing effect (and effect of spacing on WM)?
+
+::: notes
+Speaker notes go here.
+:::
+
+## Hypothesis
+
+Individuals perform better when there is less demand for working memory and when spacing is congruent with order of operations.
+
+## Sample & Procedure
+
+-   *N* = 114 adults, convenience sample
+-   Demographic background + math anxiety
+-   Baseline WM tasks: recall for dot patterns (visuospatial) and letters (verbal)
+-   Completed dual tasks
+
+## Dual Task Methodology
+
+-   Primary Task: Arithmetic
+-   Secondary Task: Working Memory
+    -   2 Types: dot patterns (visuospatial) and letters (verbal)
+    -   2 Load Difficulties: Low and High from baseline WM performance
+
+## Trial 1
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/letters_stim.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/exp.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/exp_test.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/letters_test.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/wm_test.jpeg" style="border:1px solid black"/>
+:::
+:::
+
+## Trial 2
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/dots_stim.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/exp.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/exp_test.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/dots_test.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
+:::
+
+::: {.fragment .fade-in-then-out}
+<img src="/MCLS Presentation_files/trials/wm_test.jpeg" style="border:1px solid black"/>
+:::
+:::
+
+## Task Conditions
+
+-   3 dual-task conditions with 60 trials each
+-   Each condition had all WM Loads and Types
+-   Varied on arithmetic expression and corresponded to each research question
+
+1.  no-spacing variation
+2.  [**spacing-varying**]{.underline} (congruent, incongruent, neutral)
+3.  [**spacing-varying**]{.underline} and [**parenthesis**]{.underline} around multiplied operands in expressions with congruent and incongruent spacing; e.g.,   2+(3      x      4)
+
+## Findings, so far...
+
+-   34 participants (30%), aged 19.4 to 68.1 years (*M*=31.6, *SD*=12.8)
+
+-   Highly educated with low math anxiety (*M*=2.8, *SD*=)
+
+-   Load difficulties from baseline WM tasks
+
+    |         |           |           |
+    |---------|-----------|-----------|
+    |         | Low Load  | High Load |
+    | Dots    | 2 (*SD*=) | 7 (*SD*=) |
+    | Letters | 2 (*SD*=) | 9 (*SD*=) |
+
+## Findings for RQ 1
+
+1.  How does working memory influence multi-operand arithmetic performance?
+
+-   Across all task conditions, there is an effect of load and type (separately) on arithmetic accuracy and RT.
+
+## Expected Findings for RQs 2 & 3
+
+2.  Does spacing influence working memory?
+    -   Better arithmetic performance in expressions with congruent and neutral spacing
+    -   Memory for letters/dots is better when spacing is congruent or neutral
+3.  Do parentheses reduce the spacing effect (and effect of spacing on WM)?
+    -   Better arithmetic performance overall in the parenthesis dual task condition
+
+## Discussion
+
+-   Consider working memory in digital interventions using such perceptual principles
+-   Perception and WM research--how much do numbers and visuospatial working memory overlap?
+
+## Thank You
+
+::: notes
+-   What if we do not find interactions between spacing and working memory?
+-   It is possible that working memory might not be holding spacing information. There have been findings where problem size did not have an effect on working memory or where findings are mixed, but effects may be moderated by math anxiety (e.g., DeCaro et al., 2010).
+:::
