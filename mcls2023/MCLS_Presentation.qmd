@@ -15,37 +15,30 @@ title-slide-attributes:
   data-background-opacity: "0.25"
 ---
 
-## Some Statistics
-
--   One in three individuals in the U.S. with a Bachelor's degree lack important numeracy skills (e.g., understanding complex quantitative information, recognizing mathematical patterns and relationships, and solving problems that require multiple steps)
--   Among 16-34-year-old individuals' numeracy in 30 countries, U.S. is ranked 26
--   For every standard deviation increase in numeracy, there is an increase in 9.4% of monthly earnings
-
 ## Whole Number Arithmetic
-
 -   Domain-specific: Recognizing numbers and operations and knowledge about the magnitude of numbers
 -   Domain-general: Working memory
     -   7% to 19% reduction in response time while computing arithmetic under a working memory load (Chen & Bailey, 2020)
     -   Visuospatial working memory and arithmetic tasks recruit similar neural regions (Matejko & Ansari, 2022)
 
 ## The Spacing Effect and Perceptual Processes
-
 -   Spacing: the proximity between operands and operators
--   When spacing is [**congruent**]{.underline} to the order of operations (with narrower spacing associated with earlier procedures), individuals make [**fewer errors**]{.underline} and [**respond more quickly**]{.underline}
-    -   Congruent:     2      +      3x4
-    -   Incongruent:   2+3      x      4
+-   When spacing is [**consistent**]{.underline} with the order of operations (with narrower spacing associated with earlier procedures), individuals make [**fewer errors**]{.underline} and [**respond more quickly**]{.underline}
+    -   Consistent:     2      +      3x4
+    -   Inconsistent:   2+3      x      4
 
-## Integrating theories of cognition and perception
+## Why does the spacing effect persist?
 
--   Why does the spacing effect persist?
+- Central executive (Rivera & Garrigan, 2016)
+- Inhibitory control (Closser et al., 2023)
+- Working memory
+
+::: {.notes}
 -   While much has been theorized about why visual and perceptual features affect problem-solving, there is a lack of empirical research regarding the mechanisms underlying this learning process.
-    -   Central executive (Rivera & Garrigan, 2016)
-    -   Inhibitory control (Closser et al., 2023)
-
+:::
 ## Research Questions
-
 1.  How does working memory influence multi-operand arithmetic performance?
-2.  Does spacing influence working memory?
+2.  **<span style="color:red;">Does spacing influence working memory?</span>** 
 3.  Do parentheses reduce the spacing effect (and effect of spacing on WM)?
 
 ::: notes
@@ -54,7 +47,7 @@ Speaker notes go here.
 
 ## Hypothesis
 
-Individuals perform better when there is less demand for working memory and when spacing is congruent with order of operations.
+Individuals perform better when there is less demand for working memory and when spacing is consistent with order of operations.
 
 ## Sample & Procedure
 
@@ -66,6 +59,7 @@ Individuals perform better when there is less demand for working memory and when
 ## Dual Task Methodology
 
 -   Primary Task: Arithmetic
+    -   Each expression had 3 operands with either +x, x+, ++, or xx operations
 -   Secondary Task: Working Memory
     -   2 Types: dot patterns (visuospatial) and letters (verbal)
     -   2 Load Difficulties: Low and High from baseline WM performance
@@ -162,11 +156,11 @@ Individuals perform better when there is less demand for working memory and when
 
 -   3 dual-task conditions with 60 trials each
 -   Each condition had all WM Loads and Types
--   Varied on arithmetic expression and corresponded to each research question
+-  Conditions differed in arithmetic expressions
 
 1.  no-spacing variation
-2.  [**spacing-varying**]{.underline} (congruent, incongruent, neutral)
-3.  [**spacing-varying**]{.underline} and [**parenthesis**]{.underline} around multiplied operands in expressions with congruent and incongruent spacing; e.g.,   2+(3      x      4)
+2.  [**spacing-varying**]{.underline} (consistent, inconsistent, neutral)
+3.  [**spacing-varying**]{.underline} and [**parenthesis**]{.underline} around multiplied operands in expressions with consistent and inconsistent spacing; e.g.,   2+(3      x      4)
 
 ## Findings, so far...
 
@@ -182,28 +176,106 @@ Individuals perform better when there is less demand for working memory and when
     | Dots    | 2 (*SD*=) | 7 (*SD*=) |
     | Letters | 2 (*SD*=) | 9 (*SD*=) |
 
-## Findings for RQ 1
+
+## Research Questions
+1.  How does working memory influence multi-operand arithmetic performance?
+2.  **<span style="color:red;">Does spacing influence working memory?</span>** 
+3.  Do parentheses reduce the spacing effect (and effect of spacing on WM)?
+
+::: notes
+Speaker notes go here.
+:::
+
+## Does Spacing Influence WM? {.smaller}
+
+Working memory recall after solving expressions in spacing-varying condition
+
+```{r fig.height=5}
+#| echo: false
+
+suppressMessages(library(tidyverse))
+dat.2.1 <- read.csv("/Users/joshmedrano/Library/CloudStorage/Box-Box/Dissertation/dual_ArithWSpacing.csv", header=TRUE)
+
+names(dat.2.1)[22] <- "spacing"
+dat.2.1$display <- factor(dat.2.1$display)
+levels(dat.2.1$display)[levels(dat.2.1$display)=="p_test"] <- "letters"
+levels(dat.2.1$display)[levels(dat.2.1$display)=="v_test"] <- "dots"
+
+a <- dat.2.1 %>%
+  ggplot(aes(x=spacing, y=acc, group=load, colour=load)) +
+  stat_summary(fun = mean, geom = "point", size=2) +
+  stat_summary(fun = mean, geom = "line", size=1) +
+  facet_wrap (~display) + ylim(0,1) + ylab("Accuracy")
+a +
+  theme_gray(base_size = 18) 
+
+```
+
+::: {.notes}
+To answer this question, we only looked at data from the spacing-varying condition. In the graph, the x axis is the spacing condition and the y axis is accuracy. The left graph shows participants' performance when recalling letters and the right graph shows their performance when recalling dot patterns. Here we do not see differences in accuracy between spacing types in either graph. However, we see that there are differences between low and high load, with a larger difference when recalling letters vs. dots.
+:::
+
+## Does Spacing Influence WM? {.smaller}
+
+Working memory recall after solving expressions in spacing-varying condition
+
+```{r fig.height=5}
+
+b <- dat.2.1 %>%
+  ggplot(aes(x=spacing, y=log(rt), group=load, colour=load)) +
+  stat_summary(fun = mean, geom = "point", size=2) +
+  stat_summary(fun = mean, geom = "line", size=1) +
+  facet_wrap (~display) + ylab("Response Time \n (log-transformed)")
+b +
+  theme_gray(base_size = 18)
+
+```
+
+
+::: {.notes}
+And we see the same pattern in these graphs of response times. Again, we do not see differences between spacing conditions in either graph. However, we see that there are differences between low and high load, with a larger difference when recalling letters as opposed to dots.
+:::
+
+## Does Spacing Influence WM?
+
+-   Spacing does not influence working memory
+      - Note small sample size and skew of education 
+-   Arithmetic interfered with working memory
+      - Visuospatial working memory is more involved for expressions with both addition and multiplication operations
+      
+::: {.notes}
+The fact that there were no differences between spacing conditions in accuracy and response times suggests that spacing does not influence working memory. We probably did not find any effect because of the small sample size and because of how educated our sample is.
+
+However, the fact that there are differences in low and high loads between working memory types suggests that arithmetic interfered with working memory. It also indicates that visuospatial working memory may be more involved for expressions with both addition and multiplication problems.
+:::
+
+## Thank You
+
+::: notes
+Thank you so much for listening to me and my colleagues talk. I will take any questions right now.
+
+-   What if we do not find interactions between spacing and working memory?
+-   It is possible that working memory might not be holding spacing information. There have been findingwhere problem size did not have an effect on working memory or where findings are mixed, but effects may be moderated by math anxiety (e.g., DeCaro et al., 2010).
+:::
+
+
+## Some Statistics {visibility="uncounted"}
+
+-   One in three individuals in the U.S. with a Bachelor's degree lack important numeracy skills (e.g., understanding complex quantitative information, recognizing mathematical patterns and relationships, and solving problems that require multiple steps)
+-   Among 16-34-year-old individuals' numeracy in 30 countries, U.S. is ranked 26
+-   For every standard deviation increase in numeracy, there is an increase in 9.4% of monthly earnings
+
+
+## Findings for RQ 1 {visibility="uncounted"}
 
 1.  How does working memory influence multi-operand arithmetic performance?
 
 -   Across all task conditions, there is an effect of load and type (separately) on arithmetic accuracy and RT.
 
-## Expected Findings for RQs 2 & 3
+## Expected Findings for RQs 2 & 3 {visibility="uncounted"}
 
 2.  Does spacing influence working memory?
-    -   Better arithmetic performance in expressions with congruent and neutral spacing
-    -   Memory for letters/dots is better when spacing is congruent or neutral
+    -   Better arithmetic performance when spacing is consistent or neutral
+    -   Better memory for letters/dots when spacing is consistent or neutral
 3.  Do parentheses reduce the spacing effect (and effect of spacing on WM)?
     -   Better arithmetic performance overall in the parenthesis dual task condition
-
-## Discussion
-
--   Consider working memory in digital interventions using such perceptual principles
--   Perception and WM research--how much do numbers and visuospatial working memory overlap?
-
-## Thank You
-
-::: notes
--   What if we do not find interactions between spacing and working memory?
--   It is possible that working memory might not be holding spacing information. There have been findings where problem size did not have an effect on working memory or where findings are mixed, but effects may be moderated by math anxiety (e.g., DeCaro et al., 2010).
-:::
