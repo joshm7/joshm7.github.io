@@ -1,0 +1,100 @@
+---
+format: 
+  revealjs:
+    incremental: true
+    slide-number: true
+editor: visual
+---
+
+## **Why does inhibitory control only sometimes associate with math? Insights from a review of executive function development research**
+
+Josh Medrano, Ph.D. Candidate, *presenting*\
+Richard Prather, Ph.D.\
+University of Maryland, College Park
+
+## Use of inhibitory control in math
+
+-   IC and math are moderately correlated (Pearson's *r* hovers around .35 for many meta-analyses)
+-   IC is used in specific tasks to learn specific concepts, e.g.,
+    -   Continuous magnitude information in non-symbolic tasks (Gilmore et al., 2013)
+    -   Logarithmic strategies in linear estimation (Laski & Dulaney, 2015)
+    -   Whole number biases in fraction comparison, arithmetic (Braithwaite & Siegler, 2018)
+
+
+::: notes
+as we have probably heard from here and from MCLS, we know that inhibitory control is used in mathematics. In fact, inhibitory control and mathematics are moderately correlated, with moderate correlations from multiple meta-analyses. We know that they are related to specific tasks--for example, individuals may be inhibiting continuous magnitude information when doing non-symbolic comparison; they may be inhibiting incorrect strategies such as in linear estimation; or they may be inhibiting biases or heuristics when comparing fractions or operating on fractions. 
+
+However, we also know that there are inconsistencies, even within these tasks. I am not here to explain these inconsistencies; instead i am here to argue that these inconsistencies might be saying something about how executive functions relate to arithmetic.
+:::
+
+## EF development research is not all-encompassing {.smaller}
+
+##### Future EF development research should...
+
+::: columns
+::: {.column width="33.3%"}
+-   be more contextually and culturally sensitive (Doebel, 2019; Miller-Cotto et al., 2020)
+    - experience with structured play enhances DCCS performance (Stucke, Stoet & Doebel, 2022)
+:::
+
+::: {.column width="33.4%"}
+-   capture the dynamics of the task (Perone et al., 2020)
+    - labeling facilitates DCCS performance (Buss & Kerr-German, 2019)
+:::
+
+::: {.column width="33.3%"}
+-   be approached in both contextual and acontextual ways (Munakata & Michaelson, 2020)
+:::
+:::
+
+::: notes
+What has led me here today are these recent papers or commentaries, if you will, on EF development research. These researchers on EF development, rather than EF and math, have concluded several points on how EF development research has to move forward, and these are very well-entangled: 1) Future EF development researchers should be more contextual and ecologically valid; 2) ... should capture the dynamics of a task, idea comes from dynamic systems theory of motor development and has been useful for describing how performance on DCCS task sort of arises from this basic ability to attach labels to features, which in turn has been useful for describing other high-level cognition; 3) ... should be approached in both contextual and acontextual way.
+:::
+
+## Future EF+math researchers should be asking... {.smaller}
+
+::: columns
+::: {.column width="33.3%"}
+-   Does context affect the relations between EF and math? If so, how?
+      - Experimentally manipulating digital or physical environment
+:::
+
+::: {.column width="33.4%"}
+-   How is EF used during math tasks?
+      - Computationally modeling task behaviors and investigating separable components (e.g., Braithwaite, 2017; Pickering et al., 2023; Prather, 2019)
+:::
+
+::: {.column width="33.3%"}
+-   How do the ways in which EFs are traditionally assessed impact the relations between EF and math?
+      - Assessor identity
+      - Assessment format
+      - Feedback
+      - Content (co-designed vs. standardized)
+:::
+:::
+
+::: notes
+What has led me today are these recent papers or commentaries, if you will, on EF development research. These are researchers on EF development, rather than EF and math. And the researchers of these papers have concluded several points on how EF development research has to move forward, and these are very well-entangled: 1) Future EF development should be more contextual and ecologically valid; 2) ... should capture the dynamics of a task; 3) ... should be approached in both contextual and acontextual way.
+
+mention Gilmore article on how mathematics is componential or multi-level
+:::
+
+## What does numerical cognition research tell us about executive functions?
+
+The way individuals use executive functions is deeply contextual
+
+## What does numerical cognition research tell us about executive functions?
+
+The way individuals use executive functions <span class="fragment">**(in math)**</span> is deeply contextual
+
+## Thank you! {.smaller}
+
+Medrano, J., & Prather, R. W. (2023). Rethinking executive Functions in mathematical cognition. *Journal of Cognition and Development, 24*(2), 280–295. https://doi.org/10.1080/15248372.2023.2172414
+
+
+
+#### Contact:
+
+Email: jmed7@umd.edu
+
+Twitter: josh_medrano10
