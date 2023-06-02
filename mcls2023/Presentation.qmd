@@ -9,8 +9,7 @@ format:
     slide-number: true
 editor: visual
 title-slide-attributes: 
-  data-background-image: "Presentation_files/shell-example.png.webp"
-  data-background-size: contain
+  data-background-image: "Presentation_files/McKeldinMall_09122007_12.jpg"
   data-background-opacity: "0.25"
 ---
 
@@ -69,105 +68,34 @@ and we are interested in whether there is an interaction on spacing and working 
 
 # Method
 
-## Sample & procedure
+## Sample & Procedure {.smaller}
 
--   *N* = 114 adults (convenience sampling) to complete the following in Gorilla
-    -   Demographic background + math anxiety
-    -   Baseline WM span tasks: recall dot patterns (visuospatial) and letter sets (phonological)
-    -   Dual tasks (3 conditions)
+-   *N* = 114 adults (convenience sampling)
+
+::: r-stack
+::: fragment
+![](Presentation_files/ProcedureFigure/ProcedureFigure.002.jpeg)
+:::
+
+::: fragment
+![](Presentation_files/ProcedureFigure/ProcedureFigure.003.jpeg)
+:::
+:::
 
 ::: notes
 Method. We have not actually finished this project. But at the end of data collection, we should have about 114 adults who have completed hte following in Gorilla: - a demographic background survey - a math anxiety survey - two baseline working memory span tasks - and three dual tasks
 :::
 
-## Dual task methodology {.smaller}
+## Dual task methodology
 
 -   Primary Task: Arithmetic
     -   Each expression had 3 operands with either +x, x+, ++, or xx operations
 -   Secondary Task: Working Memory
-    -   2 Types: dot patterns (visuospatial) and letters (phonological)
+    -   2 Types: dots (visuospatial) and letters (phonological)
     -   2 Load Difficulties: low and high
--   Three conditions/blocks differed in arithmetic expressions:
-    1.  no-spacing variation
-    2.  [[**spacing-varying**]{.underline} (consistent, inconsistent, neutral)]{style="color:red;"}
-    3.  [**spacing-varying**]{.underline} and [**parenthesis**]{.underline} around multiplied operands in expressions with consistent and inconsistent spacing; e.g.,   2+(3      x      4)
 
 ::: notes
 Dual tasks are often used to investigate whether two tasks share the same process.
-
-Every condition had all working memory types and load difficulties. The only difference are the arithmetic expressions.
-:::
-
-## Example Trial 1
-
-::: r-stack
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/letters_stim.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/exp.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/exp_test.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/letters_test.jpeg" style="border:1px solid black"/>
-:::
-:::
-
-## Example Trial 2
-
-::: r-stack
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/dots_stim.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/exp.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/exp_test.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/fixation.jpeg" style="border:1px solid black"/>
-:::
-
-::: {.fragment .fade-in-then-out}
-<img src="Presentation_files/trials/dots_test.jpeg" style="border:1px solid black"/>
-:::
 :::
 
 # Does spacing interact with working memory?
@@ -181,7 +109,8 @@ So, results. Again, we are interested in this particular question, does spacing 
 ## Analytical Plan
 
 ::: nonincremental
--   WM Stimuli -\> Arith Exp -\> Arith Eval -\> WM Recall
+-   Trial Sequence:
+    -   WM Stimuli -\> Arith Exp -\> Arith Eval -\> WM Recall
 -   ANOVAs
 -   DVs:
     -   Accuracy and RTs for Arith Evaluation
@@ -194,19 +123,16 @@ So, results. Again, we are interested in this particular question, does spacing 
 Just to remind you, each trial consisted of arithmetic evaluation and working memory recall. So we will be looking at the accuracy and response times for those, with Spacing, Type, and Load as independent variables. And we will conduct analyses of variance.
 :::
 
-## Findings, so far...
+## Descriptives
 
 -   34 participants (30%), aged 19.4 to 68.1 years (*M*=31.6, *SD*=12.8)
 
 -   Highly educated with moderate math anxiety (*M*=2.8, *SD*=)
 
--   Median number of dots and letters to be recalled for low and high load trials:
+-   Median number of dots and letters in low and high load trials:
 
-    |         |          |           |
-    |---------|----------|-----------|
-    |         | Low Load | High Load |
-    | Dots    | 2        | 6         |
-    | Letters | 2        | 6         |
+    -   Low load: 2
+    -   High load: 6
 
 ## Arithmetic accuracy by spacing {style="font-size:24px"}
 
@@ -252,7 +178,10 @@ a <- ggplot(dat.2.4.sum, aes(x=spCond, y=mean_acc)) +
   ylab("Accuracy") + xlab("Spacing") +
   geom_errorbar(aes(ymin = mean_acc - se_acc, ymax = mean_acc + se_acc), width = .1, position=position_dodge(.9))
 a+
-  theme_gray(base_size = 18) 
+  theme_gray(base_size = 20) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.title=element_blank())
 
 ```
 :::
@@ -265,8 +194,6 @@ Here comes the graphs. First, as expected, we found an effect of spacing. With a
 
 ::: nonincremental
 -   Main effect of `load`, *F*(1,32)=5.83, *p*=0.02, $\eta^{2}_{p}$=0.15, with higher accuracy when WM load is high (87.9%) vs. low (85.7%)
-
-    -   Pattern may be due to order effect or spacing being maintained in WM
 
 ```{r fig.height=5}
 #| echo: false
@@ -294,13 +221,16 @@ b <- ggplot(dat.2.4.sum2, aes(x=spCond, y=mean_acc, fill=load, group=load)) +
   ylab("Accuracy") + xlab("Spacing") +
    geom_errorbar(aes(ymin = mean_acc - se_acc, ymax = mean_acc + se_acc), width = .2, position=position_dodge(.9))
 b+
-  theme_gray(base_size = 18)
+  theme_gray(base_size = 20) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.title=element_blank())
  
 ```
 :::
 
 ::: notes
-Second, we found an effect of load, where participants did better on expressions under high load trials than low load trials. There is no interaction between spacing and load but there are differences in load by spacing condition. As you can see there is a greater difference in the inconsistent spacing condition.
+-   make sure to explain colors Second, we found an effect of load, where participants did better on expressions under high load trials than low load trials. There is no interaction between spacing and load but there are differences in load by spacing condition. As you can see there is a greater difference in the inconsistent spacing condition.
 
 That participants did better under high load than low load is an unusual finding because we usually see the opposite, but there two explanations for this.
 
@@ -315,8 +245,7 @@ That is, though there is no interaction, we see differences between loads by spa
 
 ::: nonincremental
 -   Only a main effect of `load`, *F*(1,32) = 21.76, *p*\<.001, $\eta^{2}_{p}$=0.40 with higher accuracy for low (*M*=85.1%) than high (*M*=77.6%) load trials
-
--   Smaller difference between high/low loads for dots may indicate that there is [greater VSWM involvement during dual task]{.underline} *and/or* that [spacing facilitates VSWM]{.underline}
+-   Smaller difference between high/low loads for dots
 
 ```{r fig.height=5}
 #| echo: false
@@ -351,7 +280,10 @@ a <- dat.2.1.sum %>%
   facet_wrap (~display) + ylim(0,1) + ylab("Accuracy") +
   geom_errorbar(aes(ymin = mean_acc - se_acc, ymax = mean_acc + se_acc), width = .1)
 a +
-  theme_gray(base_size = 18) 
+  theme_gray(base_size = 20) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.title=element_blank())
 
 ```
 :::
@@ -378,7 +310,10 @@ b <- dat.2.1.sum %>%
   facet_wrap (~display) + ylab("Response Time \n (log-transformed)") +
   geom_errorbar(aes(ymin = mean_log_rt - se_log_rt, ymax = mean_log_rt + se_log_rt), width = .1)
 b +
-  theme_gray(base_size = 18)
+  theme_gray(base_size = 20) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        legend.title=element_blank())
 
 
 ```
@@ -392,20 +327,37 @@ Again, we do not see differences between spacing conditions in either graph. We 
 Differences between loads and types during working memory recall may indicate that visuospatial WM is more involved in multi-operand arithmetic or spacing facilitates VSWM, which we can test by analyzing conditions 1 and 2.
 :::
 
-## Does spacing interact with WM?
+## Summary
 
+::: incremental
+-   Spacing effect persisted in the task
+-   Higher arithmetic accuracy during high load trials
+-   Better recall accuracy and RT during low load trials
+-   Better recall RT (faster) for dots
 -   No significant interactions
--   Note small sample size (*N* = 34) and high education levels (\~50% had graduate school experience)
--   Perception + cognition implication
-    -   Perceptual cues can be used to support VSWM (or vice versa) during math learning
+    -   Note small sample size (*N* = 34) and high education levels (\~50% had graduate school experience)
+:::
+
+## Discussion
+
+::: incremental
+-   Some patterns and trends, where there are load differences within spacing conditions or spacing types
+-   Implications
+    -   Research on relationship between (VS)WM and arithmetic
+    -   Perceptual cues can be used to support (VS)WM, or vice versa, during math learning
+:::
 
 ::: notes
 So, does spacing interact with WM? We did not find significant interactions. This might be due to small sample size and highly educated sample.
 
 Regardless, I think this work has implications particularly for the increase of research on numerical cognition and visuospatial working memory. More practically, it could tell us more about how perceptual cues are used during math learning, wherein perceptual cues can be used to support VSWM (or vice versa).
+
+-   Pattern may be due to order effect or spacing being maintained in WM
+
+-   Smaller difference between high/low loads for dots may indicate that there is [greater VSWM involvement during dual task]{.underline} *and/or* that [spacing facilitates VSWM]{.underline}
 :::
 
-# Thank you!
+# Thank you! {background-image="Presentation_files/McKeldinMall_09122007_12.jpg" background-opacity=0.25}
 
 Email: jmed7\@umd.edu
 
@@ -417,7 +369,10 @@ Website: joshm7.github.io
 Thank you so much for listening to me and my colleagues talk. I will take any questions right now.
 
 -   What if we do not find interactions between spacing and working memory?
+
 -   It is possible that working memory might not be holding spacing information. There have been findingwhere problem size did not have an effect on working memory or where findings are mixed, but effects may be moderated by math anxiety (e.g., DeCaro et al., 2010).
+
+-   
 :::
 
 ## Some Statistics {visibility="uncounted"}
