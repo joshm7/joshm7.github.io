@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-\[Currently in progress! Check my current website [here](https://sites.google.com/umd.edu/joshmedrano/home?authuser=0).\]
+\[Currently in progress! Check my current website here.\]
 
 I am a Ph.D. candidate in [Human Development](https://education.umd.edu/academics/departments/hdqm) at [University of Maryland](https://umd.edu/) working with [Dr. Richard Prather](https://pratherlab.org/). My research has explored cognitive and environmental factors that influence executive functions and STEM development through behavioral and computational studies.
 
