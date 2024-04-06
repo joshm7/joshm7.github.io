@@ -4,15 +4,13 @@ format: html
 editor: visual
 ---
 
-## Publications
-
 **Medrano, J.,** & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. *Journal of Cognition and Development.* <https://doi.org/10.1080/15248372.2023.2172414> 
 
-**Medrano, J.,** Crnosija, N., Prather, R. W., & Payne-Sturges, D. (2022). Bridging the environment and neurodevelopment for children\'s health: Associations between real-time air pollutant exposures and cognitive outcomes. *Frontiers in Psychology*. <https://doi.org/10.3389/fpsyg.2022.933327> 
+**Medrano, J.,** Crnosija, N., Prather, R. W., & Payne-Sturges, D. (2022). Bridging the environment and neurodevelopment for children's health: Associations between real-time air pollutant exposures and cognitive outcomes. *Frontiers in Psychology*. <https://doi.org/10.3389/fpsyg.2022.933327> 
 
 Prather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J., Dutra, N.B., Faison, M.O., Figueroa, M., Holden, L.T.R., Johnson, C., **Medrano, J.**, Miller-Cotto, D. Matthews, P.G., Manly, J.J., Thomas, A.K. (2022). What can cognitive science do for people? *Cognitive Science*. <https://doi.org/10.1111/cogs.13167> 
 
-**Medrano, J.\*,** Jaffe, J.,\* Lombardi, D., Holzer, M.A., & Roemmele, C. (2020). Students\' scientific evaluations of water resources. *Water*. <https://doi.org/10.3390/w12072048>
+**Medrano, J.\*,** Jaffe, J.,\* Lombardi, D., Holzer, M.A., & Roemmele, C. (2020). Students' scientific evaluations of water resources. *Water*. <https://doi.org/10.3390/w12072048>
 
 \*Co-first authors
 

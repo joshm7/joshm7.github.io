@@ -2,8 +2,9 @@ project:
   type: website
 website:
   navbar:
-    search: true
-    background: primary
+    title: Josh Medrano, Ph.D.
+    search: false
+    background: info
     right:
     - href: index.qmd
       text: Home
@@ -12,5 +13,5 @@ website:
     - href: research.qmd
     
 theme:
-  - flatly
+  - journal
   - custom.scss
