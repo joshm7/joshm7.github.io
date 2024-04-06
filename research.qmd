@@ -4,4 +4,10 @@ format: html
 editor: visual
 ---
 
-***Pardon the Dust! Under Construction***
+My research interests are:
+
+<ul>
+<li>The role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning
+<li>Mechanisms underlying learning
+<li>The role of the physical environment on cognitive development
+</ul>

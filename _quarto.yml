@@ -14,8 +14,8 @@ website:
     - href: index.qmd
       text: Home
     - href: cv.qmd
-    - href: publications.qmd
     - href: research.qmd
+    - href: publications.qmd
     
 theme:
   - journal

@@ -23,10 +23,7 @@ In my research, I aim to understand the cognitive factors that contribute to mat
     <a class="nav-link active" data-bs-toggle="tab" href="#education" aria-selected="true" role="tab">Education</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#research-interests" aria-selected="false" role="tab" tabindex="-1">Research Interests</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#stats" aria-selected="false" role="tab" tabindex="-1">Statistical Skills</a>
+    <a class="nav-link" data-bs-toggle="tab" href="#stats" aria-selected="false" role="tab" tabindex="-1">Analytical Skills</a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link" data-bs-toggle="tab" href="#programming" aria-selected="false" role="tab" tabindex="-1">Programming Skills</a>
@@ -38,14 +35,6 @@ In my research, I aim to understand the cognitive factors that contribute to mat
   <li>2019-2023 - Ph.D. in Human Development, University of Maryland, College Park
   <li>2018-2019 - M.Ed. in Educational Psychology, University of Virginia
   <li>2013-2016 - B.A. in Psychology, The Ohio State University
-  </ul>
-  </div>
-  <div class="tab-pane fade" id="research-interests" role="tabpanel">
-  <p> (In no particular order) 
-  <ul>
-  <li>The role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning
-  <li>Mechanisms underlying learning
-  <li>The role of the physical environment on cognitive development
   </ul>
   </div>
   <div class="tab-pane fade" id="stats" role="tabpanel">
