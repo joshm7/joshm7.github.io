@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -70,9 +69,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -181,44 +180,37 @@ gtag('config', 'G-WY0TP47DPN', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="resources" data-listing-date-sort="1712376000000" data-listing-file-modified-sort="1712442663255" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../thoughts/posts/grad-student-resources/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../thoughts/posts/grad-student-resources/index.html">
-<h3 class="no-anchor listing-title">
-Resources for Graduate Students
-</h3>
-<div class="listing-subtitle">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('resources'); return false;">
-resources
-</div>
-</div>
-<a href="../thoughts/posts/grad-student-resources/index.html">
-<div class="listing-description">
-This is a list for graduate students!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../thoughts/posts/grad-student-resources/index.html">
-<div class="listing-date">
-Apr 6, 2024
-</div>
-<div class="listing-author">
-Josh Medrano
-</div>
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+<th>
+Author
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="resources" data-listing-date-sort="1712376000000" data-listing-file-modified-sort="1712443956701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Resources for Graduate Students" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">Apr 6, 2024</span>
+</td>
+<td>
+<a href="../thoughts/posts/grad-student-resources/index.html" class="title listing-title">Resources for Graduate Students</a>
+</td>
+<td>
+<span class="listing-author">Josh Medrano</span>
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
