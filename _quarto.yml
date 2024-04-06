@@ -1,6 +1,6 @@
 project: 
   type: website
-
+  output-dir: docs
 
 format: html
 website:
@@ -21,4 +21,3 @@ theme:
   - journal
   - custom.scss
   
-output: html
