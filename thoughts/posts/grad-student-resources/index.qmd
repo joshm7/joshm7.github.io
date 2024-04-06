@@ -1,0 +1,8 @@
+---
+title: "Resources for Graduate Students"
+author: "Josh Medrano"
+date: "2024-04-06"
+categories: [resources]
+---
+
+This is a list for graduate students!
