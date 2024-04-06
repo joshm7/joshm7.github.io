@@ -1,17 +1,47 @@
 ---
-title: "josh medrano | ph.d. candidate"
+title: "Josh Medrano, Ph.D."
+subtitle: "Postdoctoral Scholar, Kent State University"
 format: html
+theme:
+  - journal
+  - custom.scss
 editor: visual
+website:
+  google-analytics: "G-WY0TP47DPN"
 ---
 
-Welcome!
 
-Hello! I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I received my Ph.D. in [Human Development](https://education.umd.edu/human-development-program) at [University of Maryland](https://umd.edu/), where I was advised by [Dr. Richard Prather](https://pratherlab.org/). 
+## About
+<img src="headshot.jpg" alt="Josh Medrano" height="300" align="right" style="padding:0px 20px"/>
 
-In my research, I examine how domain-general skills, such as executive functions and spatial skills, contribute to math and science performance. I also aim to understand mechanisms of learning by integrating research from areas of developmental, cognitive, and educational psychology. Such research is important because early STEM skills affect later academic achievement, career, and daily life.
+I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.
 
-For more information, you can see my CV [here](https://drive.google.com/file/d/1WtSW1zbjm3Gc_OumLx3wE9QoNjC-UpRZ/view?usp=share_link).
+In my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. This research can inform efforts in improving students' learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life.
 
-You can also email me at [jmedran5\@kent.edu](mailto:jmedran5@kent.edu).
+<center>
+[Curriculum Vitae](CV-MedranoJ.pdf){target="_blank"} | [Email](mailto:jmedran5@kent.edu) | [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"}
+</center>
 
-You can see my publication on [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en).
+## News
+<div style="height:200px;overflow-y: scroll;">
+- March 2024: Presented my first poster as a postdoc at Cognitive Development Society in Pasadena, CA!
+- September 2023: I started a new position as Postdoctoral Scholar at Kent State University.
+- January 2023: My literature review "Rethinking executive functions in mathematical cognition" was accepted at [Journal of Cognition and Development](https://doi.org/10.1080/15248372.2023.2172414). A preprint is available here: <https://osf.io/y9mbn>.
+-   October 2022: Published with Natalie Crnosija (Public Health), Richard Prather, and Devon Payne-Sturges (Public Health) on "Bridging the environment and neurodevelopment for children's health: Associations between real-time air pollutant exposures and cognitive outcomes" in [Frontiers in Psychology](https://www.frontiersin.org/articles/10.3389/fpsyg.2022.933327/full).
+-   May 2022: Published with Richard Prather and others on "What does cognitive science do for people?" in Cognitive Science. A preprint is available here: <https://psyarxiv.com/68w7c>
+-   April 2022: Received a Diversity Award from Cognitive Development Society. Posters and talks were presented on our [project](https://www.cogdevlab.umd.edu/online-studies/does-air-quality-impact-math-ability/) on air pollution exposure and cognitive and math skills
+-   2020: Published with Joshua Jaffe, Doug Lombardi, and others on "Students' scientific evaluations of water" as part of a special issue in the Water journal. <https://www.mdpi.com/2073-4441/12/7/2048> 
+
+</div>
+
+## Publications
+
+Medrano, J., & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. Journal of Cognition and Development. <https://doi.org/10.1080/15248372.2023.2172414> 
+
+Medrano, J., Crnosija, N., Prather, R. W., & Payne-Sturges, D. (2022). Bridging the environment and neurodevelopment for children's health: Associations between real-time air pollutant exposures and cognitive outcomes. Frontiers in Psychology. <https://doi.org/10.3389/fpsyg.2022.933327> 
+
+Prather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J., Dutra, N.B., Faison, M.O., Figueroa, M., Holden, L.T.R., Johnson, C., Medrano, J., Miller- Cotto, D. Matthews, P.G., Manly, J.J., Thomas, A.K. (2022). What can cognitive science do for people? Cognitive Science. <https://doi.org/10.1111/cogs.13167> 
+
+Medrano, J.\*, Jaffe, J.,\* Lombardi, D., Holzer, M.A., & Roemmele, C. (2020). Students' scientific evaluations of water resources. Water. <https://doi.org/10.3390/w12072048> 
+
+\*Co-first authors
