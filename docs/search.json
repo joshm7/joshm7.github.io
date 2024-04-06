@@ -35,11 +35,11 @@
     "text": "News\n\n\nApril 2024: I am excited to attend the Modern Meta-Analysis Research Institute for an intensive five-day workshop on meta-analysis in Washington, DC.\nApril 2024: My undergraduate mentees presented at the Undergraduate Symposium for Research, Scholarship and Creative Endeavors. One of them received first place among Psychological Sciences posters.\nMarch 2024: I presented my first poster as a postdoc at Cognitive Development Society in Pasadena, CA.\nOctober 2023: I defended my dissertation.\nSeptember 2023: I started a new position as Postdoctoral Scholar at Kent State University!\nJanuary 2023: My literature review “Rethinking executive functions in mathematical cognition” was accepted at Journal of Cognition and Development. A preprint is available here.\nOctober 2022: Published with Natalie Crnosija (Public Health), Richard Prather, and Devon Payne-Sturges (Public Health) on “Bridging the environment and neurodevelopment for children’s health: Associations between real-time air pollutant exposures and cognitive outcomes” in Frontiers in Psychology.\nMay 2022: Published with Richard Prather and others on “What does cognitive science do for people?” in Cognitive Science. A preprint is available here.\nApril 2022: Received a Diversity Award from Cognitive Development Society. Posters and talks were presented on our project on air pollution exposure and cognitive and math skills.\nMay 2020: Published with Joshua Jaffe, Doug Lombardi, and others on “Students’ scientific evaluations of water” as part of a special issue in the Water journal PDF."
   },
   {
-    "objectID": "index.html#some-fun-things-about-me",
-    "href": "index.html#some-fun-things-about-me",
+    "objectID": "index.html#fun-facts",
+    "href": "index.html#fun-facts",
     "title": "Josh Medrano, Ph.D.",
-    "section": "Some Fun Things About Me",
-    "text": "Some Fun Things About Me\nYou can see young Josh here. I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a choir."
+    "section": "Fun Facts",
+    "text": "Fun Facts\nYou can see young Josh here. I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a choir."
   },
   {
     "objectID": "publications.html",
@@ -49,59 +49,24 @@
     "text": "Medrano, J., & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. Journal of Cognition and Development. https://doi.org/10.1080/15248372.2023.2172414 \nMedrano, J., Crnosija, N., Prather, R. W., & Payne-Sturges, D. (2022). Bridging the environment and neurodevelopment for children’s health: Associations between real-time air pollutant exposures and cognitive outcomes. Frontiers in Psychology. https://doi.org/10.3389/fpsyg.2022.933327 \nPrather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J., Dutra, N.B., Faison, M.O., Figueroa, M., Holden, L.T.R., Johnson, C., Medrano, J., Miller-Cotto, D. Matthews, P.G., Manly, J.J., Thomas, A.K. (2022). What can cognitive science do for people? Cognitive Science. https://doi.org/10.1111/cogs.13167 \nMedrano, J.*, Jaffe, J.,* Lombardi, D., Holzer, M.A., & Roemmele, C. (2020). Students’ scientific evaluations of water resources. Water. https://doi.org/10.3390/w12072048\n*Co-first authors\n\nGoogle Scholar: scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "thoughts/posts/grad-student-resources/index.html",
+    "href": "thoughts/posts/grad-student-resources/index.html",
+    "title": "Resources for Graduate Students",
     "section": "",
-    "text": "Download PDF file. Download"
+    "text": "This is a list for graduate students!"
   },
   {
-    "objectID": "index.html#fun-facts",
-    "href": "index.html#fun-facts",
-    "title": "Josh Medrano, Ph.D.",
-    "section": "Fun Facts",
-    "text": "Fun Facts\nYou can see young Josh here. I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a choir."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "A List of Thoughts",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "blog/about.html",
-    "href": "blog/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
+    "objectID": "thoughts/index.html",
+    "href": "thoughts/index.html",
     "title": "A List of Thoughts",
     "section": "",
     "text": "Resources for Graduate Students\n\n\n\n\n\n\n\nresources\n\n\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\nJosh Medrano\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/grad-student-resources/index.html",
-    "href": "blog/posts/grad-student-resources/index.html",
-    "title": "Resources for Graduate Students",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
     "section": "",
-    "text": "This is a list for graduate students!"
+    "text": "Download PDF file. Download"
   }
 ]

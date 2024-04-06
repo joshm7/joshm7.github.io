@@ -16,7 +16,7 @@ website:
     - href: cv.qmd
     - href: research.qmd
     - href: publications.qmd
-    - href: thoughts.qmd
+    - href: thoughts/index.qmd
     
 theme:
   - journal

@@ -1,15 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/thoughts/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/grad-student-resources/index.html"
+      "/thoughts/posts/grad-student-resources/index.html"
     ]
   }
 ]
