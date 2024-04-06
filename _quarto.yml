@@ -1,6 +1,11 @@
 project: 
   type: website
+
+
+format: html
 website:
+  title: "Josh Medrano, Ph.D."
+  google-analytics: "G-WY0TP47DPN"
   navbar:
     title: Josh Medrano, Ph.D.
     search: false
@@ -15,3 +20,5 @@ website:
 theme:
   - journal
   - custom.scss
+  
+output: html

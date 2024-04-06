@@ -1,8 +1,0 @@
-name: "josh medrano | ph.d. candidate"
-navbar:
-  title: "josh medrano | ph.d.candidate"
-  left:
-  - text: "Home"
-      href: index.html
-  - text: "Speed and Distance"
-      href: speed-and-distance.html

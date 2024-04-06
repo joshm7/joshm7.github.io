@@ -2,9 +2,6 @@
 title: "Josh Medrano, Ph.D."
 subtitle: "Postdoctoral Scholar, Kent State University"
 format: html
-website:
-  title: "Josh Medrano, Ph.D."
-  google-analytics: "G-WY0TP47DPN"
 ---
 
 ## About
