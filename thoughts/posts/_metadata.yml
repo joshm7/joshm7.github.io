@@ -9,4 +9,7 @@ title-block-banner: false
 
 sidebar:
   contents: /*
+  
+website:
+  page-navigation: true
     
