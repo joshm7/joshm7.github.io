@@ -4,16 +4,14 @@ format: html
 editor: visual
 ---
 
-\[Currently in progress! Check my current website here.\]
+Welcome!
 
-I am a Ph.D. candidate in [Human Development](https://education.umd.edu/academics/departments/hdqm) at [University of Maryland](https://umd.edu/) working with [Dr. Richard Prather](https://pratherlab.org/). My research has explored cognitive and environmental factors that influence executive functions and STEM development through behavioral and computational studies.
+Hello! I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I received my Ph.D. in [Human Development](https://education.umd.edu/human-development-program) at [University of Maryland](https://umd.edu/), where I was advised by [Dr. Richard Prather](https://pratherlab.org/). 
 
-I received a M.Ed. in Educational Psychology - Applied Developmental Science from the University of Virginia, where I examined the relationship between spatial learning, spatial play, and mathematics. Prior to my graduate studies, I tutored K-6 students in mathematics in Cincinnati, Ohio, as an Ohio Math Corps and AmeriCorps member. My interest in developmental psychology started at The Ohio State University, where I received a B.A. in Psychology and investigated individuals' ability to use inductive reasoning about novel categories.
+In my research, I examine how domain-general skills, such as executive functions and spatial skills, contribute to math and science performance. I also aim to understand mechanisms of learning by integrating research from areas of developmental, cognitive, and educational psychology. Such research is important because early STEM skills affect later academic achievement, career, and daily life.
 
-Email: [\[email protected\]](email:jmed7@umd.edu)
+For more information, you can see my CV [here](https://drive.google.com/file/d/1WtSW1zbjm3Gc_OumLx3wE9QoNjC-UpRZ/view?usp=share_link).
 
-Lab Website: [pratherlab.org](https://pratherlab.org/) // [cogdevlab.umd.edu](https://cogdevlab.umd.edu/)
+You can also email me at [jmedran5\@kent.edu](mailto:jmedran5@kent.edu).
 
-CV: [PDF](https://drive.google.com/file/d/1WtSW1zbjm3Gc_OumLx3wE9QoNjC-UpRZ/view)
-
-Publications: [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en)
+You can see my publication on [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en).
