@@ -1,0 +1,16 @@
+project: 
+  type: website
+website:
+  navbar:
+    search: true
+    background: primary
+    right:
+    - href: index.qmd
+      text: Home
+    - href: cv.qmd
+    - href: publications.qmd
+    - href: research.qmd
+    
+theme:
+  - flatly
+  - custom.scss

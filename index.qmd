@@ -2,21 +2,9 @@
 title: "Josh Medrano, Ph.D."
 subtitle: "Postdoctoral Scholar, Kent State University"
 format: html
-theme:
-  - journal
-  - custom.scss
-editor: visual
 website:
   title: "Josh Medrano, Ph.D."
   google-analytics: "G-WY0TP47DPN"
-  navbar:
-    left:
-      text: "Home"
-    right:
-      - href: index.html
-        text: "Home"
-      - href: Output_PrelimAnalysis.qmd
-        text: "Sample analysis"
 ---
 
 ## About
@@ -102,4 +90,4 @@ In my research, I aim to understand the cognitive factors that contribute to mat
 <!-- </div> -->
 
 ## Some Fun Things About Me
-You can see young Josh [here](me-child.jpg). I value work-life balance. In my free time, I like to travel, cook and eat all sorts of cuisines, being active, and singing karaoke and in a [choir](https://www.youtube.com/watch?v=HhuiotKB43s).
+You can see young Josh [here](me-child.jpg). I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a [choir](https://www.youtube.com/watch?v=HhuiotKB43s).

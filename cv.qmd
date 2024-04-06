@@ -1,0 +1,9 @@
+---
+title: "CV"
+format: html
+editor: visual
+---
+
+## CV
+{{< pdf CV-MedranoJ.pdf width=100% height=500 >}}
+[Download](CV-MedranoJ.pdf){target="_blank"} 
