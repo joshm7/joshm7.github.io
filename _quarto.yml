@@ -22,6 +22,7 @@ website:
       text: Thoughts
 
 title-block-banner: true
+title-block-banner-color: white
 
 theme:
   - journal
