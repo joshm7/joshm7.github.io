@@ -5,9 +5,9 @@ format: html
 ---
 
 ## About
-<img src="headshot.jpg" alt="Josh Medrano" width="50%" align="right" style="padding:0px 20px"/>
+<img src="headshot.jpg" alt="Josh Medrano" width="40%" align="right" style="padding:0px 20px"/>
 
-I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather. I also received my M.Ed. in Educational Psychology - Applied Developmental Science from University of Virginia, and my B.A. in Psychology from The Ohio State University.
+I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.
 
 In my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. The goal is to inform efforts in improving students' learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life.
 
@@ -23,10 +23,10 @@ In my research, I aim to understand the cognitive factors that contribute to mat
     <a class="nav-link active" data-bs-toggle="tab" href="#education" aria-selected="true" role="tab">Education</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#stats" aria-selected="false" role="tab" tabindex="-1">Analytical Skills</a>
+    <a class="nav-link" data-bs-toggle="tab" href="#stats" aria-selected="false" role="tab" tabindex="-1">Statistical Knowledge</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#programming" aria-selected="false" role="tab" tabindex="-1">Programming Skills</a>
+    <a class="nav-link" data-bs-toggle="tab" href="#programming" aria-selected="false" role="tab" tabindex="-1">Technical Skills</a>
   </li>
 </ul>
 <div id="myTabContent" class="tab-content">
@@ -50,11 +50,11 @@ In my research, I aim to understand the cognitive factors that contribute to mat
   </div>
   <div class="tab-pane fade" id="programming" role="tabpanel">
   <ul>
-    <li>Statistical analysis: R, SPSS, and STATA
-    <li>Data visualization: R and RStudio packages
-    <li>Traditional experiments: PsychoPy, OpenSesame, MATLAB, Python, & EyeLink
-    <li>Online experiments & surveys: Gorilla Experiment Builder and Qualtrics
-    <li>Web programming: HTML, CSS, Markdown, JavaScript, and Python
+    <li>Statistical analysis: R, SPSS, STATA, & SQL
+    <li>Data visualization: ggplot, R Markdown/Quarto
+    <li>Experiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink
+    <li>Online experiment & survey development: Gorilla Experiment Builder and Qualtrics
+    <li>Other programming: HTML, CSS, JavaScript, and Python
   </ul>
   </div>
 </div>
