@@ -21,7 +21,7 @@ website:
     - href: thoughts/index.qmd
       text: Thoughts
 
-title-block-banner: false
+title-block-banner: true
 
 theme:
   - journal
