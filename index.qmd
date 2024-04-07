@@ -5,7 +5,7 @@ format: html
 ---
 
 ## About
-<img src="headshot.jpg" alt="Josh Medrano" width="40%" align="right" style="padding:0px 20px"/>
+<img src="headshot.jpg" alt="Josh Medrano" width="30%" align="right" style="padding:0px 20px"/>
 
 I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.
 
