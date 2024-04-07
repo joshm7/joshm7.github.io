@@ -4,28 +4,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research interests are:\n\n\nThe role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning\n\nMechanisms underlying learning\n\nThe role of the physical environment on cognitive development"
+    "text": "My research interests are:\n\nThe role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning\nMechanisms underlying learning\nThe role of the physical environment on cognitive development"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Josh Medrano, Ph.D.",
     "section": "",
-    "text": "I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with Dr. Dana Miller-Cotto. I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.\nIn my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. The goal is to inform efforts in improving students’ learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life.\n\nCurriculum Vitae | Email | Google Scholar | Bluesky"
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Josh Medrano, Ph.D.",
-    "section": "",
-    "text": "I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with Dr. Dana Miller-Cotto. I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.\nIn my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. The goal is to inform efforts in improving students’ learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life.\n\nCurriculum Vitae | Email | Google Scholar | Bluesky"
-  },
-  {
-    "objectID": "index.html#qualifications-and-skills",
-    "href": "index.html#qualifications-and-skills",
-    "title": "Josh Medrano, Ph.D.",
-    "section": "Qualifications and Skills",
-    "text": "Qualifications and Skills\n\n\nEducation\n\n\nStatistical Knowledge\n\n\nTechnical Skills\n\n\n\n\n\n\n2019-2023 - Ph.D. in Human Development, University of Maryland, College Park\n\n2018-2019 - M.Ed. in Educational Psychology, University of Virginia\n\n2013-2016 - B.A. in Psychology, The Ohio State University\n\n\n\n\n(In no particular order)\n\n\nUnivariate and multivariate statistics\n\nGeneral linear models, including linear, logistic, and quintile regressions\n\nExploratory latent and composite variable methods including cluster analyses\n\nStructural equation modeling, including path analyses\n\nCausal inference\n\nMeta-analysis\n\n\n\n\n\nStatistical analysis: R, SPSS, STATA, & SQL\n\nData visualization: ggplot, R Markdown/Quarto\n\nExperiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink\n\nOnline experiment & survey development: Gorilla Experiment Builder and Qualtrics\n\nOther programming: HTML, CSS, JavaScript, and Python"
+    "text": "I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with Dr. Dana Miller-Cotto. I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.\nIn my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. The goal is to inform efforts in improving students’ learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life."
   },
   {
     "objectID": "index.html#news",
@@ -35,13 +21,6 @@
     "text": "News\n\n\nApril 2024: I am excited to attend the Modern Meta-Analysis Research Institute for an intensive five-day workshop on meta-analysis in Washington, DC.\nApril 2024: My undergraduate mentees presented at the Undergraduate Symposium for Research, Scholarship and Creative Endeavors. One of them received first place among Psychological Sciences posters.\nMarch 2024: I presented my first poster as a postdoc at Cognitive Development Society in Pasadena, CA.\nOctober 2023: I defended my dissertation.\nSeptember 2023: I started a new position as Postdoctoral Scholar at Kent State University!\nJanuary 2023: My literature review “Rethinking executive functions in mathematical cognition” was accepted at Journal of Cognition and Development. A preprint is available here.\nOctober 2022: Published with Natalie Crnosija (Public Health), Richard Prather, and Devon Payne-Sturges (Public Health) on “Bridging the environment and neurodevelopment for children’s health: Associations between real-time air pollutant exposures and cognitive outcomes” in Frontiers in Psychology.\nMay 2022: Published with Richard Prather and others on “What does cognitive science do for people?” in Cognitive Science. A preprint is available here.\nApril 2022: Received a Diversity Award from Cognitive Development Society. Posters and talks were presented on our project on air pollution exposure and cognitive and math skills.\nMay 2020: Published with Joshua Jaffe, Doug Lombardi, and others on “Students’ scientific evaluations of water” as part of a special issue in the Water journal PDF."
   },
   {
-    "objectID": "index.html#fun-facts",
-    "href": "index.html#fun-facts",
-    "title": "Josh Medrano, Ph.D.",
-    "section": "Fun Facts",
-    "text": "Fun Facts\nYou can see young Josh here. I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a choir."
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -49,24 +28,38 @@
     "text": "Medrano, J., & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. Journal of Cognition and Development. https://doi.org/10.1080/15248372.2023.2172414 \nMedrano, J., Crnosija, N., Prather, R. W., & Payne-Sturges, D. (2022). Bridging the environment and neurodevelopment for children’s health: Associations between real-time air pollutant exposures and cognitive outcomes. Frontiers in Psychology. https://doi.org/10.3389/fpsyg.2022.933327 \nPrather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J., Dutra, N.B., Faison, M.O., Figueroa, M., Holden, L.T.R., Johnson, C., Medrano, J., Miller-Cotto, D. Matthews, P.G., Manly, J.J., Thomas, A.K. (2022). What can cognitive science do for people? Cognitive Science. https://doi.org/10.1111/cogs.13167 \nMedrano, J.*, Jaffe, J.,* Lombardi, D., Holzer, M.A., & Roemmele, C. (2020). Students’ scientific evaluations of water resources. Water. https://doi.org/10.3390/w12072048\n*Co-first authors\n\nGoogle Scholar: scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "2019-2023 - Ph.D. in Human Development, University of Maryland, College Park\n2018-2019 - M.Ed. in Educational Psychology, University of Virginia\n2013-2016 - B.A. in Psychology, The Ohio State University\n\n\n\n\n\nUnivariate and multivariate statistics\nGeneral linear models, including linear, logistic, and quintile regressions\nExploratory latent and composite variable methods including cluster analyses\nStructural equation modeling, including path analyses\nMeta-analysis (2024 Modern Meta-Analysis Research Institute attendee)\nCausal inference\n\n\n\n\n\nStatistical analysis: R, SPSS, STATA, & SQL\nData visualization: ggplot, R Markdown/Quarto\nExperiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink\nOnline experiment & survey development: Gorilla Experiment Builder and Qualtrics\nOther programming: HTML, CSS, JavaScript, and Python\n\n\nSee my CV"
+  },
+  {
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About Me",
+    "section": "",
+    "text": "2019-2023 - Ph.D. in Human Development, University of Maryland, College Park\n2018-2019 - M.Ed. in Educational Psychology, University of Virginia\n2013-2016 - B.A. in Psychology, The Ohio State University\n\n\n\n\n\nUnivariate and multivariate statistics\nGeneral linear models, including linear, logistic, and quintile regressions\nExploratory latent and composite variable methods including cluster analyses\nStructural equation modeling, including path analyses\nMeta-analysis (2024 Modern Meta-Analysis Research Institute attendee)\nCausal inference\n\n\n\n\n\nStatistical analysis: R, SPSS, STATA, & SQL\nData visualization: ggplot, R Markdown/Quarto\nExperiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink\nOnline experiment & survey development: Gorilla Experiment Builder and Qualtrics\nOther programming: HTML, CSS, JavaScript, and Python\n\n\nSee my CV"
+  },
+  {
+    "objectID": "about.html#fun-facts",
+    "href": "about.html#fun-facts",
+    "title": "About Me",
+    "section": "Fun Facts",
+    "text": "Fun Facts\nYou can see young Josh here. I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a choir."
+  },
+  {
     "objectID": "thoughts/posts/grad-student-resources/index.html",
     "href": "thoughts/posts/grad-student-resources/index.html",
     "title": "Resources for Graduate Students",
     "section": "",
-    "text": "To be updated!"
+    "text": "To be updated! In the meantime, check out MCLS Trainee Board resources."
   },
   {
     "objectID": "thoughts/index.html",
     "href": "thoughts/index.html",
     "title": "A List of Thoughts",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApr 6, 2024\n\n\nResources for Graduate Students\n\n\nJosh Medrano\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
-    "section": "",
-    "text": "Download PDF file. Download"
+    "text": "Resources for Graduate Students\n\n\n\n\n\n\n\n\n\n\n\n\nApr 6, 2024\n\n\nJosh Medrano\n\n\n\n\n\n\nNo matching items"
   }
 ]

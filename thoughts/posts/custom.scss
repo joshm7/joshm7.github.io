@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap')
+
+$font-family-monospace: "Chivo Mono"!important;
+
+/*-- scss: rules --*/
+
+h1 {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap')
+body {
+  font-family: "Chivo Mono", monospace;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+.chivo-mono-extra-light {
+  font-family: "Chivo Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}

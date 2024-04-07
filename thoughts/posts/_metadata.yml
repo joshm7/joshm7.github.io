@@ -12,6 +12,3 @@ sidebar:
   
 website:
   page-navigation: true
-
-theme:
-  - custom.scss

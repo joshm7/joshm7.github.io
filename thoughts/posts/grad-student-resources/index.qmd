@@ -5,4 +5,4 @@ date: "2024-04-06"
 categories: [resources]
 ---
 
-To be updated!
+To be updated! In the meantime, check out MCLS Trainee Board [resources](https://mclstrainee.weebly.com/).

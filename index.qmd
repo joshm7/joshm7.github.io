@@ -4,9 +4,7 @@ subtitle: "Postdoctoral Scholar, Kent State University"
 format: html
 ---
 
-## About
 <img src="headshot.jpg" alt="Josh Medrano" width="30%" align="right" style="padding:0px 20px"/>
-
 I am a Postdoctoral Scholar in the Department of Psychological Sciences at Kent State University, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather.
 
 In my research, I aim to understand the cognitive factors that contribute to mathematical and scientific thinking and learning. Specifically, I examine how individuals engage domain-general skills, such as executive functioning and spatial/relational reasoning, while doing mathematical and scientific tasks. I do this by integrating methods from areas of developmental, cognitive, and educational psychology. The goal is to inform efforts in improving students' learning, as early mathematical and scientific skills affect later academic achievement, career, and daily life.
@@ -15,50 +13,6 @@ In my research, I aim to understand the cognitive factors that contribute to mat
 [Curriculum Vitae](CV-MedranoJ.pdf){target="_blank"} | [Email](mailto:jmedran5@kent.edu) | [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"} |
 [Bluesky](https://jmedrano.bsky.social)
 </center>
-
-
-## Qualifications and Skills
-<ul class="nav nav-tabs" role="tablist">
-  <li class="nav-item" role="presentation">
-    <a class="nav-link active" data-bs-toggle="tab" href="#education" aria-selected="true" role="tab">Education</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#stats" aria-selected="false" role="tab" tabindex="-1">Statistical Knowledge</a>
-  </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" data-bs-toggle="tab" href="#programming" aria-selected="false" role="tab" tabindex="-1">Technical Skills</a>
-  </li>
-</ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade active show" id="education" role="tabpanel">
-  <ul>
-  <li>2019-2023 - Ph.D. in Human Development, University of Maryland, College Park
-  <li>2018-2019 - M.Ed. in Educational Psychology, University of Virginia
-  <li>2013-2016 - B.A. in Psychology, The Ohio State University
-  </ul>
-  </div>
-  <div class="tab-pane fade" id="stats" role="tabpanel">
-  <p> (In no particular order) 
-  <ul>
-  <li>Univariate and multivariate statistics
-  <li>General linear models, including linear, logistic, and quintile regressions
-  <li>Exploratory latent and composite variable methods including cluster analyses
-  <li>Structural equation modeling, including path analyses
-  <li>Causal inference
-  <li>Meta-analysis
-  </ul>
-  </div>
-  <div class="tab-pane fade" id="programming" role="tabpanel">
-  <ul>
-    <li>Statistical analysis: R, SPSS, STATA, & SQL
-    <li>Data visualization: ggplot, R Markdown/Quarto
-    <li>Experiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink
-    <li>Online experiment & survey development: Gorilla Experiment Builder and Qualtrics
-    <li>Other programming: HTML, CSS, JavaScript, and Python
-  </ul>
-  </div>
-</div>
-
 
 
 ## News
@@ -75,5 +29,3 @@ In my research, I aim to understand the cognitive factors that contribute to mat
 -   May 2020: Published with Joshua Jaffe, Doug Lombardi, and others on "Students' scientific evaluations of water" as part of a special issue in the Water journal [PDF](https://www.mdpi.com/2073-4441/12/7/2048).
 <!-- </div> -->
 
-## Fun Facts
-You can see young Josh [here](me-child.jpg). I value work-life balance. In my free time, I like to travel, be active, cook and eat dishes from different cuisines, and sing karaoke or in a [choir](https://www.youtube.com/watch?v=HhuiotKB43s).

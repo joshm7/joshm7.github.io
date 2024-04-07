@@ -15,12 +15,14 @@ website:
     right:
     - href: index.qmd
       text: Home
-    - href: cv.qmd
+    - href: about.qmd
     - href: research.qmd
     - href: publications.qmd
     - href: thoughts/index.qmd
       text: Thoughts
-    
+
+title-block-banner: false
+
 theme:
   - journal
   - custom.scss
