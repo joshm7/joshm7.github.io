@@ -35,7 +35,8 @@ editor: visual
 - Guest Lecturer for one section of Human Development Across the Lifespan (40 students, Fall 2021, UMD); Children's Thinking (40 students, Fall 2023, Kent State); Child Psychology (145 students, Spring 2024, Kent State)
 
 ### Outreach Experience
-- Member of the [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI) in Columbus, OH
+- Virginia Discovery Museum, Charlottesville, VA, 2018-2019
+- The [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI), Columbus, OH, 2014
   - Helped design a [demo](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/44077/files/2017/03/TRICK-SENTENCES-DEMO-1mj2dhj.pdf){target="_blank"} of the Moses Illusion, illustrating top-down effects in sentence processing
 
 <center><a href="CV-MedranoJ.pdf" target="_blank"><button type="button" class="btn btn-primary">Download my CV</button></a></center>
