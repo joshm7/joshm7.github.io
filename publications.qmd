@@ -1,6 +1,6 @@
 ---
-title: "Science Communication"
-subtitle: "Publications, Posters, Talks, and Outreach"
+title: "Publications and Presentations"
+subtitle: "Plus Talks and Outreach"
 format:
   html:
     toc: true
