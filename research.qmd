@@ -4,14 +4,13 @@ format: html
 editor: visual
 ---
 
-My research interests are:
+## Research Interests
 
 -   The role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning
--   Mechanisms underlying learning
+-   Individiual differences in math and science learning
 -   The role of the physical environment on cognitive development
 
-<center>
-![](photo-defense.jpeg){fig-alt="Defense Presentation October 2023" height="250"} 
 
-![](photo-mcls.jpeg){fig-alt="MCLS Presentation June 2023" height="250"}
+<center>
+![](photo-defense.jpeg){fig-alt="Defense Presentation October 2023" height="250"} ![](photo-mcls.jpeg){fig-alt="MCLS Presentation June 2023" height="250"}
 </center>

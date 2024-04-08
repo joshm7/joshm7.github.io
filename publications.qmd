@@ -1,8 +1,14 @@
 ---
-title: "Publications"
-format: html
+title: "Science Communication"
+subtitle: "Publications, Posters, Talks, and Outreach"
+format:
+  html:
+    toc: true
+    toc-expand: true
+    toc-location: left
 editor: visual
 ---
+## Peer-Reviewed Publications
 
 **Medrano, J.,** & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. *Journal of Cognition and Development.* <https://doi.org/10.1080/15248372.2023.2172414> 
 
@@ -14,4 +20,105 @@ Prather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J.
 
 \*Co-first authors
 
-<center>Google Scholar: [scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en](http://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en)</center>
+Google Scholar: [scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en](http://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en) 
+
+## Manuscripts Under Review
+
+**Medrano, J.** & Prather, R.W. (under review). Interactions between perceptual cues and working memory during mental arithmetic: A dual-task experiment.
+
+Miller-Cotto, D., Chan, J.Y.-C., & **Medrano, J.** (under review). Identifying challenging topics in mathematics: An analysis of student performance across domains. [Pre-registration](https://osf.io/xfvjp>).
+
+Miller-Cotto, D. & **Medrano, J.** (revising for resubmission). The role of working memory in the effectiveness of faded worked examples.
+
+## Manuscripts In Preparation
+
+**Medrano, J.**, Mohan, S., & Lombardi, D. (revising for resubmission). The role of inhibitory control and cognitive flexibility in plausibility judgments and scientific evaluations.
+
+**Medrano, J.,** Miller-Cotto, D., & Prather, R.W. (revising for resubmission). Testing the theoretical contributions of inhibitory control to arithmetic skills. [Preregistration](https://osf.io/2aq5n?view_only=117319d14f3c4663a7c6043ed67e31f2).
+
+**Medrano, J.,** Devlin, B., Schingledecker, M., Thompson, C.A., & Miller-Cotto, D., (in prep). Individual differences in fraction understanding and relations to EF and spatial/relational reasoning. [Preregistration](https://osf.io/98gzv).
+
+Miller-Cotto, D., & **Medrano, J.** (in prep). Understanding the mechanistic role of working memory in early math learning: to offload or not to offload? A developmental perspective.
+
+Miller-Cotto, D., **Medrano, J.,** & Zaborowski, S. (in prep). When training is inconclusive: Making a case for supporting instead of training executive functions.
+
+Miller-Cotto, D., & **Medrano, J.,** Thompson, C.A., Devlin, B., & Shingledecker, M. (in prep). Testing theories of working memory with whole number bias: A developmental analysis.
+
+Miller-Cotto, D., Ribner, A.D., & **Medrano, J.** (in prep). The role of assessor racial identity on Black children's executive function task performance: An initial examination.
+
+Miller-Cotto, D., Borriello, G.A. & **Medrano, J.** (in prep). A meta-analysis of the correlations between executive functions and spatial skills.
+
+## Conference Presentations
+
+### Chaired Symposium
+
+**Medrano, J.** (Chair). *The role of perception in arithmetic cognition* \[Symposium\]. 2023 Mathematical Cognition and Learning Society Conference, Loughborough, UK.
+
+### Invited Oral Presentations
+
+**Medrano, J.** & Prather, R.W. (2023, June). Why does inhibitory control only sometimes associate with math? Insights from a review of executive function development research. In Hochman, S. (Chair). *Numerical Cognition Meets Executive Functions Symposium* \[Symposium\]. University of Surrey, Guildford, UK. 
+
+**Medrano, J.** & Prather, R.W. (2023, June). Integrating perceptual and cognitive processes in mental arithmetic. In Medrano, J. (Chair). *The role of perception in arithmetic cognition* \[Symposium\]. 2023 Mathematical Cognition and Learning Society Conference, Loughborough, UK.
+
+Prather, R.W., & Payne-Sturges, D., **Medrano, J.**, Kendall Brooks, L., Johnson, C., & Crnosija, N. (2022, March). An asset-based quantitative framework to characterize cognitive development of African-American children. In Rittle-Johnson, B. (Chair). *Barriers and supports for cognitive development and academic outcomes among marginalized youth*. Bi-ennial Cognitive Development Society Conference 2022, Madison, WI.
+
+Chen, R.\*, Diallo, M.\*, Hancock, M.\*, Lampe, L.\*, **Medrano, J.\*,** Salt, J.\*, & Wright, J.\* (2019). Motivation analysis of a multiage classroom: Exploring Agnor-Hurt Elementary*.* The Virginia Chapter of Association for Learning Environments Annual Conference, Williamsburg, VA.
+
+\*Presenters contributed equally.
+
+### Oral Presentations
+
+**Medrano, J.\***, Crnosija, N.\*, Prather, R.W., & Payne-Sturges, D., (2022). Bridging the environment and neurodevelopment for children's health study: An overview. GradTerp Exchange, College Park, MD.
+
+**Medrano, J.** & Prather, R.W. (2021, March). Examining how numerical and non-numerical inhibitory control contribute to arithmetic skills: A path analytical approach. 2021 Mathematical Cognition and Learning Society Conference.
+
+### Paper Presentations
+
+**Medrano, J.**,Mohan, S., Jaffe, J.B., & Lombardi, D. (2021, August). Executive functions in plausibility judgments and scientific evaluations \[Paper Presentation\]. 31st Annual Meeting of the Society for Text and Discourse.
+
+### Poster Presentations
+
+Parrish, L.^U^, **Medrano, J.,** & Miller-Cotto, D. (2024, April). Whole number knowledge correlates with working memory and fraction understanding. \[Poster Presentation\]. 2024 Undergraduate Symposium for Research, Scholarship and Creative Endeavors, Kent State University, Kent, OH.\
+***\*\*\* Poster Judged First Place Among Psychological Sciences Posters***
+
+Ernst, L.^U^, **Medrano, J.,** & Miller-Cotto, D. (2024, April). Understanding the underlying cognitive mechanisms of whole number bias in third graders. \[Poster Presentation\]. 2024 Undergraduate Symposium for Research, Scholarship and Creative Endeavors, Kent State University, Kent, OH.
+
+**Medrano, J.,** Miller-Cotto, D., Thompson, C.A., Devlin, B., & Shingledecker, M. (2024, March). Individual differences in third and sixth graders' fraction understanding and relations to EF and spatial skills. \[Poster Presentation\]. 2024 Bi-ennial Cognitive Development Society Conference, Pasadena, CA. 
+
+Crnosija, N., **Medrano, J**., Prather, R.W., & Payne-Sturges, D. (2022, September). The effect of COVID-19 lockdown/post-lockdown and season on children's exposure to PM2.5 and time expenditure by environment type \[Poster Presentation\]. 34th Annual Conference of the International Society for Environmental Epidemiology, Athens, Greece. <https://doi.org/10.1289/isee.2022.P-0519>.
+
+**Medrano, J**., Crnosija, N., Prather, R.W., & Payne-Sturges, D. (2022, March). Bridging the environment and neurodevelopment for children's health study: An overview \[Poster Presentation\]. Bi-ennial Cognitive Development Society Conference 2022, Madison, WI.
+
+Dobaria, A., Bailey, J. M., Mohan, S., Klavon, T. G., **Medrano, J. R.**, Jaffe, J. B., & Lombardi, D. (2021, August). Students' scientific evaluations of astronomy concepts\[Poster Presentation\]*.* EARLI 2021---the 19th Biennial EARLI Conference, Gothenburg, Sweden.
+
+Crnosija, N.\*, **Medrano, J.\***, Prather, R.W., & Payne-Sturges, D., (2021, August). Bridging the environment and neurodevelopment for children's health study: An overview \[Poster Presentation\]. Eighth Annual Public Health Research, College Park, MD.
+
+Mohan, S., **Medrano, J.**, Lombardi, D., & Jaffe, J. (2021, August). Students' evaluations, plausibility perceptions, and knowledge shifts about climate change and water resources \[Pre-recorded Poster Presentation\]. 2021 Annual Meeting of the American Educational Research Association, San Diego, CA.
+
+**Medrano, J.** & Prather, R. W. (2021, April). Consistency of individual differences across number line tasks\[Poster Presentation\]*.* Society for Research in Child Development 2021 Virtual Biennial Meeting.
+
+Jaffe, J.,\* **Medrano, J.**,\* & Lombardi, D. (2020, August). Promoting scientific plausibility and knowledge shifts through modeled evaluation activities \[Poster Presentation\]. American Psychological Association Convention 2020, Washington, D.C. \
+***\*\* Poster Selected for Presidential Poster Session***
+
+**Medrano, J.** & Prather, R. W. (2020, June). Cognitive, behavioral, and affective influences of mathematical achievement\[Conference Canceled\]. 2020 Mathematical Cognition and Learning Society Conference, Dublin, Ireland.
+
+**Medrano, J.,\*** Jaffe, J.,\* & Lombardi, D. (2020, April). Does the evidence support the model? Examining the effectiveness of two instructional scaffolds in science classrooms \[Conference Canceled\]. 30th Annual Meeting of the Society for Text and Discourse, Atlanta, GA.
+
+**Medrano, J.** & Jirout, J. (2019, October). The role of relative magnitude reasoning in space-math relations\[Poster Presentation\]. Bi-ennial Cognitive Development Society Conference 2019, Louisville, KY.
+
+**Medrano, J.** & Jirout, J. (2019, March). Thinking relatively: The role of magnitude in mathematical and spatial thinking \[Poster Presentation\]. 10^th^ Curry Research Conference, Charlottesville, VA.
+
+\*Presenters contributed equally.\
+^U^ Undergraduate Mentee
+
+## Departmental Talks & Lectures
+
+**Medrano, J.** (2024). Inhibitory control and mathematical thinking and learning: What, when, and how. University of Notre Dame, Cognition, Brain, and Behavior Group Brown Bag.
+
+**Medrano, J.** (2024). Inhibitory control and mathematical thinking and learning: What, when, and how. University of Pittsburgh, Kid's Thinking Lab.
+
+**Medrano, J.** (2023). Examining how numerical and non-numerical inhibitory control contribute to arithmetic skills: A path analytical approach. Kent State University Cognitive Brown Bag.
+
+## Outreach
+
+I was part of the [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI) in Columbus, OH. I helped design a [demo](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/44077/files/2017/03/TRICK-SENTENCES-DEMO-1mj2dhj.pdf){target="_blank"} of the Moses Illusion, illustrating top-down effects in sentence processing.

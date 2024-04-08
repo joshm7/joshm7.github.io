@@ -8,29 +8,33 @@ editor: visual
 
 ### Education
 
-- 2019-2023 - Ph.D. in Human Development, University of Maryland, College Park
-- 2018-2019 - M.Ed. in Educational Psychology, University of Virginia
-- 2013-2016 - B.A. in Psychology, The Ohio State University
-
+-   2019-2023 - Ph.D. in Human Development, University of Maryland, College Park
+-   2018-2019 - M.Ed. in Educational Psychology, University of Virginia
+-   2013-2016 - B.A. in Psychology, The Ohio State University
 
 ### Statistics Training
 
-- Univariate and multivariate statistics
-- General linear models, including linear, logistic, and quintile regressions
-- Exploratory latent and composite variable methods including cluster analyses
-- Structural equation modeling, including path analyses
-- Meta-analysis (2024 Modern Meta-Analysis Research Institute attendee)
-- Causal inference
+-   Univariate and multivariate statistics
+-   General linear models, including linear, logistic, and quintile regressions
+-   Exploratory latent and composite variable methods including cluster analyses
+-   Structural equation modeling, including path analyses
+-   Meta-analysis (2024 Modern Meta-Analysis Research Institute attendee)
+-   Causal inference
 
 ### Programming Skills
 
-- Statistical analysis: R, SPSS, STATA, & SQL
-- Data visualization: ggplot, R Markdown/Quarto
-- Experiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink
-- Online experiment & survey development: Gorilla Experiment Builder and Qualtrics
-- Other programming: HTML, CSS, JavaScript, and Python
+-   Statistical analysis: R, SPSS, STATA, & SQL
+-   Data visualization: ggplot, R Markdown/Quarto
+-   Experiment development: PsychoPy, OpenSesame, MATLAB, Python, and EyeLink
+-   Online experiment & survey development: Gorilla Experiment Builder and Qualtrics
+-   Other programming: HTML, CSS, JavaScript, and Python
 
-<center> <a href="CV-MedranoJ.pdf" target="_blank"><button type="button" class="btn btn-primary">See my CV</button></a></center>
+### Teaching
+- Main Instructor for Research Methods in Human Development (40 undergraduate students, Spring 2023, UMD)
+- Graduate Teaching Assistant for Research Methods in Human Development (2 sections, 80 undergraduate students, Fall 2022, UMD)
+- Guest Lecturer for Lifespan Development (40 students, UMD); Children's Thinking (40 students, Kent State); Child Psychology (145 students, Kent State)
+
+<center><a href="CV-MedranoJ.pdf" target="_blank"><button type="button" class="btn btn-primary">Download my CV</button></a></center>
 
 ## Fun Facts
 
