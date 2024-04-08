@@ -29,10 +29,14 @@ editor: visual
 -   Online experiment & survey development: Gorilla Experiment Builder and Qualtrics
 -   Other programming: HTML, CSS, JavaScript, and Python
 
-### Teaching
+### Teaching Experience
 - Main Instructor for Research Methods in Human Development (40 undergraduate students, Spring 2023, UMD)
 - Graduate Teaching Assistant for Research Methods in Human Development (2 sections, 80 undergraduate students, Fall 2022, UMD)
-- Guest Lecturer for Lifespan Development (40 students, UMD); Children's Thinking (40 students, Kent State); Child Psychology (145 students, Kent State)
+- Guest Lecturer for one section of Human Development Across the Lifespan (40 students, Fall 2021, UMD); Children's Thinking (40 students, Fall 2023, Kent State); Child Psychology (145 students, Spring 2024, Kent State)
+
+### Outreach Experience
+- Member of the [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI) in Columbus, OH
+  - Helped design a [demo](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/44077/files/2017/03/TRICK-SENTENCES-DEMO-1mj2dhj.pdf){target="_blank"} of the Moses Illusion, illustrating top-down effects in sentence processing
 
 <center><a href="CV-MedranoJ.pdf" target="_blank"><button type="button" class="btn btn-primary">Download my CV</button></a></center>
 

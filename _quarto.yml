@@ -13,11 +13,16 @@ website:
     background: info
     pinned: true
     right:
-    - href: index.qmd
-      text: Home
-    - href: about.qmd
-    - href: research.qmd
-    - href: publications.qmd
+    - text: Home
+      href: index.qmd
+    - text: About Me
+      href: about.qmd
+    - text: Research
+      href: research.qmd
+    - text: Science Communication
+      menu:
+        - href: publications.qmd
+        - href: presentations.qmd
     - href: thoughts/index.qmd
       text: Thoughts
 
@@ -27,4 +32,4 @@ title-block-banner-color: white
 theme:
   - journal
   - custom.scss
-  
+
