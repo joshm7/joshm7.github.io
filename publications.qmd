@@ -1,6 +1,6 @@
 ---
-title: "Publications and Presentations"
-subtitle: "Plus Talks and Outreach"
+title: "Publications"
+subtitle: "& Presentations"
 format:
   html:
     toc: true

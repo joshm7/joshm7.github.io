@@ -18,7 +18,6 @@ website:
     - href: about.qmd
     - href: research.qmd
     - href: publications.qmd
-      text: Publications & Presentations
     - href: thoughts/index.qmd
       text: Thoughts
 
