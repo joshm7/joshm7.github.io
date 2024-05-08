@@ -7,6 +7,7 @@ format:
     toc-location: left
 editor: visual
 ---
+
 ## Peer-Reviewed Publications
 
 **Medrano, J.,** & Prather, R.W. (2023). Rethinking executive functions in mathematical cognition. *Journal of Cognition and Development.* <https://doi.org/10.1080/15248372.2023.2172414> 
@@ -22,21 +23,20 @@ Prather, R.W., Benitez, V.L., Kendall Brooks, L., Dancy, C.L., Dilworth-Bart. J.
 Google Scholar: [scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en](http://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en) 
 
 ## Manuscripts Under Review
+**Medrano, J.,** Devlin, B., Schingledecker, M., Thompson, C.A., & Miller-Cotto, D., (under review). Individual differences in fraction understanding and relations to EF and spatial/relational reasoning. [Preregistration](https://osf.io/98gzv).
 
-**Medrano, J.** & Prather, R.W. (under review). Interactions between perceptual cues and working memory during mental arithmetic: A dual-task experiment.
-
-Miller-Cotto, D., Chan, J.Y.-C., & **Medrano, J.** (under review). Identifying challenging topics in mathematics: An analysis of student performance across domains. [Pre-registration](https://osf.io/xfvjp>).
+Miller-Cotto, D., Chan, J.Y.-C., & **Medrano, J.** (under review). Identifying challenging topics in mathematics: An analysis of student performance across domains. [Pre-registration](https://osf.io/xfvjp%3E).
 
 Miller-Cotto, D. & **Medrano, J.** (revising for resubmission). The role of working memory in the effectiveness of faded worked examples.
 
-## Manuscripts In Preparation
+## Manuscripts Under Revision
+**Medrano, J.** & Prather, R.W. (invited revision). Interactions between perceptual cues and working memory during mental arithmetic: A dual-task experiment.
 
 **Medrano, J.**, Mohan, S., & Lombardi, D. (revising for resubmission). The role of inhibitory control and cognitive flexibility in plausibility judgments and scientific evaluations.
 
-**Medrano, J.,** Miller-Cotto, D., & Prather, R.W. (revising for resubmission). Testing the theoretical contributions of inhibitory control to arithmetic skills. [Preregistration](https://osf.io/2aq5n?view_only=117319d14f3c4663a7c6043ed67e31f2).
+**Medrano, J., & Prather, R.W. (revising for resubmission). Testing the theoretical contributions of inhibitory control to arithmetic skills. [Preregistration](https://osf.io/2aq5n?view_only=117319d14f3c4663a7c6043ed67e31f2).
 
-**Medrano, J.,** Devlin, B., Schingledecker, M., Thompson, C.A., & Miller-Cotto, D., (in prep). Individual differences in fraction understanding and relations to EF and spatial/relational reasoning. [Preregistration](https://osf.io/98gzv).
-
+## Manuscripts In Preparation
 Miller-Cotto, D., & **Medrano, J.** (in prep). Understanding the mechanistic role of working memory in early math learning: to offload or not to offload? A developmental perspective.
 
 Miller-Cotto, D., **Medrano, J.,** & Zaborowski, S. (in prep). When training is inconclusive: Making a case for supporting instead of training executive functions.
