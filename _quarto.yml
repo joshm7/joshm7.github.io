@@ -10,8 +10,9 @@ website:
   navbar:
     title: Josh Medrano, Ph.D.
     search: false
-    background: info
     pinned: true
+    collapse: false
+    background: info
     right:
     - text: Home
       href: index.qmd
@@ -26,8 +27,8 @@ website:
     - href: thoughts/index.qmd
       text: Thoughts
 
-title-block-banner: true
-title-block-banner-color: white
+title-block-banner: false
+title-block-banner-color: black
 
 theme:
   - journal

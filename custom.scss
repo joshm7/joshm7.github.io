@@ -7,6 +7,9 @@
 
 $font-family-serif: "DM Serif Display"!important;
 $h1-font-size: 4em;
+$navbar-hl: #fff;
+
+.navbar-nav .active { text-decoration: underline; text-decoration-thickness: 3px; }
 
 /*-- scss:rules --*/
 //Google Fonts
