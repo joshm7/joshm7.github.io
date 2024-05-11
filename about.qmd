@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Vita"
 format: html
 editor: visual
 ---
@@ -39,7 +39,7 @@ editor: visual
 -   The [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI), Columbus, OH, 2014
     -   Helped design a [demo](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/44077/files/2017/03/TRICK-SENTENCES-DEMO-1mj2dhj.pdf){target="_blank"} of the Moses Illusion, illustrating top-down effects in sentence processing
 
-<center><a href="Josh Medrano CV.pdf" target="_blank"><button type="button" class="btn btn-info">Download my CV</button></a></center>
+<center><a href="Josh Medrano CV.pdf" target="_blank"><button type="button" class="btn btn-info">Download my full CV</button></a></center>
 
 ## Fun Facts
 

@@ -3,8 +3,9 @@ title: "A List of Thoughts"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-  categories: false
+  type: grid
+  categories: true
   sort-ui: false
   filter-ui: false
+  grid-item-border: true
 ---
