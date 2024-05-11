@@ -12,18 +12,17 @@ website:
     search: false
     pinned: true
     collapse: false
-    background: info
     right:
-    - text: Home
+    - text: About
       href: index.qmd
-    - text: About Me
+    - text: CV
       href: about.qmd
-    - text: Research
+    - text: Projects
       href: research.qmd
-    - text: Science Communication
-      menu:
-        - href: publications.qmd
-        - href: presentations.qmd
+    # - text: Science Communication
+    #   menu:
+    #     - href: publications.qmd
+    #     - href: presentations.qmd
     - href: thoughts/index.qmd
       text: Thoughts
 
