@@ -23,7 +23,7 @@ website:
     #   menu:
     #     - href: publications.qmd
     #     - href: presentations.qmd
-    - href: thoughts/index.qmd
+    - href: thoughts.qmd
       text: Thoughts
 
 title-block-banner: false

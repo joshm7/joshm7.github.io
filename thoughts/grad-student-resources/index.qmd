@@ -3,7 +3,7 @@ title: "Resources for Graduate Students"
 author: "Josh Medrano"
 date: "2024-04-06"
 categories: [resources]
-mainfont: "Roboto"
 ---
 
 To be updated! In the meantime, check out MCLS Trainee Board [resources](https://mclstrainee.weebly.com/).
+

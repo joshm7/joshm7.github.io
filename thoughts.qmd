@@ -1,0 +1,12 @@
+---
+title: "A List of Thoughts"
+listing:
+  id: "list"
+  template: listing.ejs
+  contents: thoughts
+  sort: "date desc"
+---
+<center>
+:::{#list}
+:::
+</center>

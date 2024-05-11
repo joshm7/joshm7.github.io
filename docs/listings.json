@@ -1,8 +1,12 @@
 [
   {
     "listing": "/thoughts/index.html",
+    "items": []
+  },
+  {
+    "listing": "/thoughts.html",
     "items": [
-      "/thoughts/posts/grad-student-resources/index.html"
+      "/thoughts/grad-student-resources/index.html"
     ]
   }
 ]

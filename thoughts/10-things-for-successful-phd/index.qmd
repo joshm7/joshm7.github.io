@@ -1,0 +1,7 @@
+---
+title: "10 Things that Made Me Successful in my Ph.D. Program"
+author: "Josh Medrano"
+date: "2024-05-15"
+categories: [resources, phd]
+draft: true
+---
