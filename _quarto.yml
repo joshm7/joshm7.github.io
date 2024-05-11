@@ -11,7 +11,7 @@ website:
     title: Josh Medrano, Ph.D.
     search: false
     pinned: true
-    collapse: false
+    collapse: true
     right:
     - text: About
       href: index.qmd
