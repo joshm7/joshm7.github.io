@@ -1,0 +1,16 @@
+{
+  "hash": "71a25f94b81abdb36dec19b14d1d2796",
+  "result": {
+    "markdown": "---\ntitle: \"Postoc Year 1: The First Nine Months\"\nauthor: \"Josh Medrano\"\ndate: \"2024-05-18\"\ncategories: [reflection]\ndraft: true\n---\n\n\nThe figure below shows materials I have produced/events I have partaken in since starting my postdoc. Papers 4 and 5 are co-authored papers. All others are first-authored.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Products completed since 2024, colored by project type](index_files/figure-html/9monthproductivity-1.svg){width=100%}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -2,7 +2,10 @@ project:
   type: website
   output-dir: docs
 
-format: html
+format: 
+  html:
+    fig-format: svg
+    
 website:
   title: "Josh Medrano, Ph.D."
   google-analytics: "G-WY0TP47DPN"
@@ -11,7 +14,7 @@ website:
     title: Josh Medrano, Ph.D.
     search: false
     pinned: true
-    collapse: true
+    collapse: false
     right:
     - text: About
       href: index.qmd

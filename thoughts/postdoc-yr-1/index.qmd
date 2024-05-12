@@ -1,0 +1,47 @@
+---
+title: "Postoc Year 1: The First Nine Months"
+author: "Josh Medrano"
+date: "2024-05-18"
+categories: [reflection]
+draft: true
+---
+
+The figure below shows materials I have produced/events I have partaken in since starting my postdoc. Papers 4 and 5 are co-authored papers. All others are first-authored.
+
+```{r echo=FALSE}
+#| label: 9monthproductivity
+#| warning: false 
+#| out-width: 100%
+#| fig-cap: "Products completed since 2024, colored by project type"
+
+library(tidyverse)
+
+project <- c('paper','paper','paper','talk','talk','abstract','abstract','abstract','abstract','paper','paper','paper','paper','paper','paper','pd','talk','talk','talk','talk','abstract','pd','pd')
+
+name <- c('paper 1','paper 2','paper 6','invited talk','paper 1','paper 3','paper 3','special issue abstract','special issue abstract','paper 2','paper 4','paper 1','paper 3','paper 5','paper 1','conference','guest lecture','guest lecture','invited talk','invited talk','special issue abstract','conference','conference')
+
+begin <- c('10/1/2023','11/1/2023','3/1/2024','10/1/2023','10/15/2023','9/20/2023','1/1/2024','1/1/2024','1/15/2024','4/1/2024','11/1/2023','1/1/2024','2/1/2024','3/1/2024','5/1/2024','3/10/2024','11/1/2023','4/1/2024','4/1/2024','4/24/2024','5/1/2024','6/15/2024', '4/1/2024')
+
+end <- c('10/15/2023','12/31/2023','5/30/2024','10/15/2023','10/20/2023','10/10/2023','1/15/2024','1/15/2024','1/31/2024','5/30/2024','12/31/2023','2/29/2024','4/30/2024','4/15/2024','7/15/2024','3/25/2024','11/30/2023','4/30/2024','4/15/2024','5/9/2024','5/31/2024','6/30/2024', '4/15/2024')
+
+journey <- data.frame(project, name, begin, end)
+
+journey$x <- c(1:nrow(journey))
+
+journey %>% 
+ ggplot(aes(x = as.Date(begin, format="%m/%d/%Y"), y = forcats::fct_rev(factor(name)), color = project)) +
+  geom_segment(aes(xend = as.Date(end, format="%m/%d/%Y"), yend = forcats::fct_rev(factor(name)), color =  project), size = 6) +
+  xlab("") + ylab("") +
+  scale_x_date(date_breaks="1 month", date_labels="%b\n%Y")+
+  geom_label(x=as.Date("10/25/2023", format="%m/%d/%Y"), y=7, 
+            label="Dissertation\nDefense", hjust = 0, stat="unique", size=3, color="black")+
+    geom_label(x=as.Date("10/12/2023", format="%m/%d/%Y"), y=5, 
+            label="Conference\nAbstracts", hjust = 0, stat="unique", size=3, color="black") +
+      geom_label(x=as.Date("03/28/2024", format="%m/%d/%Y"), y=8, 
+            label="Notre Dame", hjust = 1, stat="unique", size=3, color="black") +
+   geom_label(x=as.Date("05/12/2024", format="%m/%d/%Y"), y=8, 
+            label="Pitt", hjust = 0, stat="unique", size=3, color="black", align="right")+
+   geom_label(x=as.Date("10/17/2023", format="%m/%d/%Y"), y=8, 
+            label="Kent State", hjust = 0, stat="unique", size=3, color="black", align="right")
+
+```
