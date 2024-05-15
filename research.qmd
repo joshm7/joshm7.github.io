@@ -5,6 +5,11 @@ editor: visual
 bibliography: references.bibtex
 ---
 
+## Research Interests
+* The role of domain-general skills, such as executive functions and spatial/relational-reasoning, in math and science cognition and learning
+* Mechanisms underlying learning
+* The role of the physical environment in learning cognitive development
+
 ## Peer-Reviewed Publications
 
 ### *Rethinking Executive Functions in Mathematical Cognition* [@medrano2023]

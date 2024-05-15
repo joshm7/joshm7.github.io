@@ -37,9 +37,23 @@ p[class='subtitle lead'] {
 //  opacity: 1;
 //}
 
-//body {
-//  font-size: 14px;
-//}
+body {
+ font-size: 14px;
+}
+
+.flex-container {
+   display: flex;
+  flex-direction: column; 
+}  
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
 
 //.dm-serif display-regular {
 //  font-family: "DM Serif Display", serif;
@@ -53,5 +67,7 @@ p[class='subtitle lead'] {
 //  font-style: italic;
 //}
 
-
+#me {
+  border-radius: 50%;
+}
 

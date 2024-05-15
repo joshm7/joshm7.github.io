@@ -28,7 +28,7 @@ journey <- data.frame(project, name, begin, end)
 
 journey$x <- c(1:nrow(journey))
 
-journey %>% 
+plot <- journey %>% 
  ggplot(aes(x = as.Date(begin, format="%m/%d/%Y"), y = forcats::fct_rev(factor(name)), color = project)) +
   geom_segment(aes(xend = as.Date(end, format="%m/%d/%Y"), yend = forcats::fct_rev(factor(name)), color =  project), size = 6) +
   xlab("") + ylab("") +
@@ -44,4 +44,9 @@ journey %>%
    geom_label(x=as.Date("10/17/2023", format="%m/%d/%Y"), y=8, 
             label="Kent State", hjust = 0, stat="unique", size=3, color="black", align="right")
 
+ggsave("journey.png")
+
 ```
+
+
+![My Journey So Far](journey.png)
