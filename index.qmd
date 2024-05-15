@@ -15,7 +15,7 @@ Hello! I am a Postdoctoral Scholar in the Department of Psychological Sciences a
 
 ## News
 
-::: {style="height:200px;overflow-y: scroll;"}
+<!-- ::: {style="height:200px;overflow-y: scroll;"} -->
 -   April 2024: I am excited to attend the Modern Meta-Analysis Research Institute for an intensive five-day workshop on meta-analysis in Washington, DC.
 -   April 2024: My undergraduate mentees presented at the Undergraduate Symposium for Research, Scholarship and Creative Endeavors. One of them received first place among Psychological Sciences posters.
 -   March 2024: I presented my first poster as a postdoc at Cognitive Development Society in Pasadena, CA.
@@ -26,4 +26,4 @@ Hello! I am a Postdoctoral Scholar in the Department of Psychological Sciences a
 -   May 2022: Published with Richard Prather and others on "What does cognitive science do for people?" in Cognitive Science. A preprint is available [here](https://psyarxiv.com/68w7c).
 -   April 2022: Received a Diversity Award from Cognitive Development Society. Posters and talks were presented on our [project](https://www.cogdevlab.umd.edu/online-studies/does-air-quality-impact-math-ability/) on air pollution exposure and cognitive and math skills.
 -   May 2020: Published with Joshua Jaffe, Doug Lombardi, and others on "Students' scientific evaluations of water" as part of a special issue in the Water journal [PDF](https://www.mdpi.com/2073-4441/12/7/2048).
-:::
+<!-- ::: -->
