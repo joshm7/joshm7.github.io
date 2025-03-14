@@ -2,16 +2,24 @@
 format: html
 ---
 
-::: {.flex-container style="position:relative;float:left;padding-bottom:30px"}
-<center><img src="headshot.jpg" alt="Josh Medrano" id="me" width="200px" align="left" style="padding:0px 20px"/></center>
+
+:::: {layout="[ 40, 60 ]"}
+
+::: {#first-column}
+![](me_in_delvalle.jpeg)
 :::
 
-Hello! I am a Postdoctoral Scholar in the Berkeley School of Education, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather. In my research, I aim to understand how students engage cognitive skills when learning math and science. Specifically, I examine executive functioning and spatial/relational reasoning. The goal of this research is to inform efforts in improving math and science learning, as these foundational skills are important for later academic and career outcomes.
+::: {#second-column}
+### Welcome!
+I am a Postdoctoral Scholar in the Berkeley School of Education, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather. In my research, I aim to understand how students engage cognitive skills when learning math and science. Specifically, I examine executive functioning and spatial/relational reasoning. The goal of this research is to inform efforts in improving math and science learning, as these foundational skills are important for later academic and career outcomes.
 
 <center>Email: [joshmedrano(at)berkeley.edu](mailto:joshmedrano@berkeley.edu) \| [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"} \| [Bluesky](https://jmedrano.bsky.social)
-<br>[Download my CV](https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/view?usp=sharing){target="_blank"} </center>
+<br>[Download my CV](https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/view?usp=sharing){target="_blank"} </center>  
 
 
+:::
+
+::::
 
 ## News
 
@@ -27,4 +35,3 @@ Hello! I am a Postdoctoral Scholar in the Berkeley School of Education, working 
 -   April 2022: Received a Diversity Award from Cognitive Development Society. Posters and talks were presented on our [project](https://www.cogdevlab.umd.edu/online-studies/does-air-quality-impact-math-ability/) on air pollution exposure and cognitive and math skills.
 -   May 2020: Published with Joshua Jaffe, Doug Lombardi, and others on "Students' scientific evaluations of water" as part of a special issue in the Water journal [PDF](https://www.mdpi.com/2073-4441/12/7/2048).
 <!-- ::: -->
-

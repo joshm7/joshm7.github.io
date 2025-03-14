@@ -23,11 +23,13 @@ website:
     - text: Research
       href: research.qmd
     # - text: Science Communication
-    #   menu:
-    #     - href: publications.qmd
-    #     - href: presentations.qmd
-    - href: thoughts.qmd
-      text: Thoughts
+    #    menu:
+    #      - href: publications.qmd
+    #        text: Publications
+    #      - href: presentations.qmd
+    #        text: Presentations
+    # - href: thoughts.qmd
+    #  text: Thoughts
 
 title-block-banner: false
 title-block-banner-color: black
