@@ -3,10 +3,8 @@ title: "CV Overview"
 format: html
 editor: visual
 ---
-### CV
-:::{.column-page}
-<iframe src="https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/preview" width="100%" height="600" allow="autoplay"></iframe>
-:::
+
+<center><a href="https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/view?usp=sharing" target="_blank"><button type="button" class="btn btn-info">Download my full CV</button></a></center>
 
 ### Education
 
@@ -42,8 +40,6 @@ editor: visual
 -   Virginia Discovery Museum, Charlottesville, VA, 2018-2019
 -   The [Language Pod](https://u.osu.edu/thebln/language-pod/){target="_blank"} at the Center of Science and Industry (COSI), Columbus, OH, 2014
     -   Helped design a [demo](https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/4/44077/files/2017/03/TRICK-SENTENCES-DEMO-1mj2dhj.pdf){target="_blank"} of the Moses Illusion, illustrating top-down effects in sentence processing
-
-<center><a href="https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/view?usp=sharing" target="_blank"><button type="button" class="btn btn-info">Download my full CV</button></a></center>
 
 ## Fun Facts
 
