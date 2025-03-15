@@ -2,14 +2,16 @@
 format: html
 ---
 
+
+
 ::: {layout="[ 40, 60 ]"}
 ::: {#first-column}
+#
 ![](me_in_delvalle.jpeg)
 :::
 
 ::: {#second-column}
 ### Welcome!
-
 I am a Postdoctoral Scholar in the Berkeley School of Education, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather. In my research, I aim to understand how students engage cognitive skills when learning math and science. Specifically, I examine executive functioning and spatial/relational reasoning. The goal of this research is to inform efforts in improving math and science learning, as these foundational skills are important for later academic and career outcomes.
 
 <center>Email: [joshmedrano(at)berkeley.edu](mailto:joshmedrano@berkeley.edu) \| [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"} \| [Bluesky](https://jmedrano.bsky.social) <br>[Download my CV](https://drive.google.com/file/d/1YNGtZyEai080zCla3GMF0QzjVQjNL7iK/view?usp=sharing){target="_blank"}</center>
