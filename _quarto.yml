@@ -35,6 +35,6 @@ title-block-banner: false
 title-block-banner-color: black
 
 theme:
-  - simplex
+  - litera
   - custom.scss
 
