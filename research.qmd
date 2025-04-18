@@ -3,7 +3,7 @@ title: "Research"
 format: html
 editor: visual
 bibliography: references.bibtex
-csl: apa.csl
+csl: apa-numeric-superscript-brackets.csl
 ---
 
 :::{.column-page}
@@ -14,17 +14,21 @@ csl: apa.csl
 
 ## Learning
 - Scaffolds and conceptual change in science [@Medrano2020]
-- Perceptual cues [@medrano_diss]
+- Perceptual cues [@medrano_diss; @millercottoetal_perceptualcues]
 - External memory aids [@medrano_understanding_2025]
 - Fading [@millercotto_fading_2025]
 
 ## Cognition
 - Executive functions in mathematical and science cognition [@medrano_cognitive_flexibility_2025; @medrano2023; @medrano_fyp]
 - Inhibitory control in arithmetic [@medrano2023]
-- Spatial skills and executive functions [@medrano_spatialMeta]
+- Spatial skills [@medrano_spatialMeta; @medrano_efspatial]
 
 ## Context
 - The effects of air pollution [@Medrano2022]
 - Subgroup differences in Asian American children's school readiness [@medrano_opModel]
 
 
+## References
+
+::: {#refs}
+:::
