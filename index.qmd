@@ -2,25 +2,31 @@
 format: html
 ---
 
+<!-- ::: {layout="[ 40, 60 ]"} -->
 
+<!-- ::: {#first-column} -->
 
-::: {layout="[ 40, 60 ]"}
-::: {#first-column}
-#
-![](me_in_delvalle.jpeg)
-:::
+<!-- # -->
 
-::: {#second-column}
+![](IMG_4931.jpg){width="8.88in"} <!-- ::: -->
+
+<!-- ::: {#second-column} -->
+
 ### Welcome!
+
 I am a Postdoctoral Scholar in the Berkeley School of Education, working with [Dr. Dana Miller-Cotto](https://www.danamillercotto.com/). I earned my Ph.D. in Human Development at University of Maryland, College Park, where I was advised by Dr. Richard Prather. In my research, I aim to understand how students engage cognitive skills when learning math and science. Specifically, I examine executive functioning and spatial/relational reasoning. The goal of this research is to inform efforts in improving math and science learning, as these foundational skills are important for later academic and career outcomes.
 
-<center>Email: [joshmedrano(at)berkeley.edu](mailto:joshmedrano@berkeley.edu) \| [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"} \| [Bluesky](https://jmedrano.bsky.social) <br>[Download my CV](Josh Medrano CV.pdf){target="_blank"}</center>
-:::
-:::
+<center>Email: [joshmedrano(at)berkeley.edu](mailto:joshmedrano@berkeley.edu) \| [Google Scholar](https://scholar.google.com/citations?user=IrZrHOQAAAAJ&hl=en){target="_blank"} \| [Bluesky](https://jmedrano.bsky.social) <br>[Download my CV](Josh%20Medrano%20CV.pdf){target="_blank"}</center>
+
+<!-- ::: -->
+
+<!-- ::: -->
 
 ## News
 
 <!-- ::: {style="height:200px;overflow-y: scroll;"} -->
+
+-   August 2025: One paper was accepted in the *Early Education and Development*, examining subgroup differences in Asian American kindergartners' mathematical achievement.
 -   April 2025: Two papers were accepted in the *British Journal of Educational Psychology*, looking at working memory during learning! Another paper was accepted at *Discourse Processes*, looking at the role of executive functions in shifting plausibility judgments of statements about climate change.
 -   March 2025: I presented my first work looking at Asian American children's school readiness outcomes at Berkeley School of Education (BSE) Research Day. I am also excited to present this at AERA and SRCD in late April/early May.
 -   April 2024: I am excited to attend the Modern Meta-Analysis Research Institute for an intensive five-day workshop on meta-analysis in Washington, DC.
